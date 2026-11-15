@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-7ffbe6?style=for-the-badge&labelColor=0d1630)](LICENSE)
 [![Format: SVG](https://img.shields.io/badge/Format-SVG-3ac7ff?style=for-the-badge&labelColor=0d1630)](#quick-start)
 [![CDN: jsDelivr](https://img.shields.io/badge/CDN-jsDelivr-8a5cff?style=for-the-badge&labelColor=0d1630)](#use-via-cdn)
+[![Icons](https://img.shields.io/badge/Icons-157-5fd0ff?style=for-the-badge&labelColor=0d1630)](icons.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ffd84d?style=for-the-badge&labelColor=0d1630)](CONTRIBUTING.md)
 [![Request an icon](https://img.shields.io/badge/Request-an%20icon-ff7a9c?style=for-the-badge&labelColor=0d1630)](../../issues/new?template=icon-request.md)
 
@@ -87,7 +88,7 @@ Open any file in [`/icons`](icons) and paste the raw SVG into your project.
 | --- | --- | --- |
 | `original` | Full-color brand logo | Portfolios, READMEs |
 | `original-wordmark` | Full-color logo with the name | Tech stack sections |
-| `plain` | Single-shape, recolorable | Themes, dark mode |
+| `plain` | Single-shape, uses `currentColor` (black when loaded via `<img>`, recolor by inlining the SVG) | Themes, dark mode |
 | `plain-wordmark` | Single-shape with the name | Footers, badges |
 | `line` | Outline style | Minimal UIs |
 
@@ -183,7 +184,7 @@ If you are a rights holder and want a logo changed or removed, [open an issue](.
 
 ## Credits
 
-Inspired by [devicon](https://github.com/devicons/devicon) and [md-badges](https://github.com/inttter/md-badges). Thanks to every contributor.
+Icon artwork in this release is generated from [Simple Icons](https://simpleicons.org) (CC0 1.0). Inspired by [devicon](https://github.com/devicons/devicon) and [md-badges](https://github.com/inttter/md-badges). Thanks to every contributor.
 
 ## Citation
 

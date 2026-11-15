@@ -40,7 +40,7 @@ Out of scope: personal branding, one-off company logos with no tooling use, and 
 
 ## SVG rules
 
-- Must have a `viewBox`. Prefer `0 0 128 128`.
+- Must have a `viewBox`. Prefer a square one (`0 0 24 24` or `0 0 128 128`).
 - No `<script>`, event handlers (`onclick`, ...), external references or embedded raster images.
 - Optimized: no editor metadata, no hidden layers. Keep each file under 20 KB.
 - `plain` variants should use a single fill so they can be recolored.
@@ -58,6 +58,16 @@ Out of scope: personal branding, one-off company logos with no tooling use, and 
   "color": "#61dafb"
 }
 ```
+
+## Add an icon quickly from Simple Icons
+
+```bash
+npm i -D simple-icons
+node scripts/add-from-simple-icons.mjs googlesearchconsole seo-webmaster seo google
+npm run validate
+```
+
+Simple Icons is CC0, but each logo is still a trademark of its owner.
 
 ## Request an icon
 

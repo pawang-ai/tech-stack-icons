@@ -1,1 +1,2816 @@
-[]
+[
+  {
+    "name": "alacritty",
+    "altnames": [
+      "alacritty"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f46d01"
+  },
+  {
+    "name": "alibaba-cloud",
+    "altnames": [
+      "alibabacloud"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff6a00"
+  },
+  {
+    "name": "alpine-linux",
+    "altnames": [
+      "alpinelinux"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0d597f"
+  },
+  {
+    "name": "appium",
+    "altnames": [
+      "appium"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ee376d"
+  },
+  {
+    "name": "appveyor",
+    "altnames": [
+      "appveyor"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#00b3e0"
+  },
+  {
+    "name": "arangodb",
+    "altnames": [
+      "arangodb"
+    ],
+    "category": "databases",
+    "tags": [
+      "database",
+      "databases"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#dddf72"
+  },
+  {
+    "name": "arc",
+    "altnames": [
+      "arc"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#fcbfbd"
+  },
+  {
+    "name": "asahi-linux",
+    "altnames": [
+      "asahilinux"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#a61200"
+  },
+  {
+    "name": "asana",
+    "altnames": [
+      "asana"
+    ],
+    "category": "productivity",
+    "tags": [
+      "collaboration-tool",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f06a6a"
+  },
+  {
+    "name": "assemblyscript",
+    "altnames": [
+      "assemblyscript"
+    ],
+    "category": "languages",
+    "tags": [
+      "languages",
+      "programming-language"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#007acc"
+  },
+  {
+    "name": "bitsy",
+    "altnames": [
+      "bitsy"
+    ],
+    "category": "other",
+    "tags": [
+      "game-engine",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6767b2"
+  },
+  {
+    "name": "box",
+    "altnames": [
+      "box"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0061d5"
+  },
+  {
+    "name": "brave",
+    "altnames": [
+      "brave"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#fb542b"
+  },
+  {
+    "name": "caprover",
+    "altnames": [
+      "caprover"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ed5b26"
+  },
+  {
+    "name": "chocolatey",
+    "altnames": [
+      "chocolatey"
+    ],
+    "category": "devops",
+    "tags": [
+      "devops",
+      "package-manager"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#80b5e3"
+  },
+  {
+    "name": "codacy",
+    "altnames": [
+      "codacy"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#222f29"
+  },
+  {
+    "name": "code-climate",
+    "altnames": [
+      "codeclimate"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "codemagic",
+    "altnames": [
+      "codemagic"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f45e3f"
+  },
+  {
+    "name": "codesandbox",
+    "altnames": [
+      "codesandbox"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "code-editor",
+      "editors-terminals"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#151515"
+  },
+  {
+    "name": "construct-3",
+    "altnames": [
+      "construct3"
+    ],
+    "category": "other",
+    "tags": [
+      "game-engine",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#00ffda"
+  },
+  {
+    "name": "contentful",
+    "altnames": [
+      "contentful"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#2478cc"
+  },
+  {
+    "name": "coolify",
+    "altnames": [
+      "coolify"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6b16ed"
+  },
+  {
+    "name": "coveralls",
+    "altnames": [
+      "coveralls"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3f5767"
+  },
+  {
+    "name": "cryengine",
+    "altnames": [
+      "cryengine"
+    ],
+    "category": "other",
+    "tags": [
+      "game-engine",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "daisyui",
+    "altnames": [
+      "daisyui"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ffc63a"
+  },
+  {
+    "name": "databricks",
+    "altnames": [
+      "databricks"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics",
+      "data-science"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff3621"
+  },
+  {
+    "name": "deepseek",
+    "altnames": [
+      "deepseek"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#5786fe"
+  },
+  {
+    "name": "dependabot",
+    "altnames": [
+      "dependabot"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#025e8c"
+  },
+  {
+    "name": "discord",
+    "altnames": [
+      "discord"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#5865f2"
+  },
+  {
+    "name": "docsify",
+    "altnames": [
+      "docsify"
+    ],
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#2ece53"
+  },
+  {
+    "name": "docusaurus",
+    "altnames": [
+      "docusaurus"
+    ],
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3ecc5f"
+  },
+  {
+    "name": "dribbble",
+    "altnames": [
+      "dribbble"
+    ],
+    "category": "design",
+    "tags": [
+      "design"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ea4c89"
+  },
+  {
+    "name": "drizzle",
+    "altnames": [
+      "drizzle"
+    ],
+    "category": "databases",
+    "tags": [
+      "databases",
+      "orm"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#c5f74f"
+  },
+  {
+    "name": "dropbox",
+    "altnames": [
+      "dropbox"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0061ff"
+  },
+  {
+    "name": "ejs",
+    "altnames": [
+      "ejs"
+    ],
+    "category": "languages",
+    "tags": [
+      "languages",
+      "programming-language"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#b4ca65"
+  },
+  {
+    "name": "email",
+    "altnames": [
+      "mail",
+      "envelope"
+    ],
+    "category": "email",
+    "tags": [
+      "email",
+      "generic"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4f7bff"
+  },
+  {
+    "name": "espressif",
+    "altnames": [
+      "espressif"
+    ],
+    "category": "other",
+    "tags": [
+      "microcontroller",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#e7352c"
+  },
+  {
+    "name": "flydotio",
+    "altnames": [
+      "flydotio"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#24175b"
+  },
+  {
+    "name": "freebsd",
+    "altnames": [
+      "freebsd"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ab2b28"
+  },
+  {
+    "name": "gamemaker",
+    "altnames": [
+      "gamemaker"
+    ],
+    "category": "other",
+    "tags": [
+      "game-engine",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "ghostty",
+    "altnames": [
+      "ghostty"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3551f3"
+  },
+  {
+    "name": "gmail",
+    "altnames": [
+      "gmail"
+    ],
+    "category": "email",
+    "tags": [
+      "email",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ea4335"
+  },
+  {
+    "name": "gnome-terminal",
+    "altnames": [
+      "gnometerminal"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#241f31"
+  },
+  {
+    "name": "gnu",
+    "altnames": [
+      "gnu"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#a42e2b"
+  },
+  {
+    "name": "gnu-icecat",
+    "altnames": [
+      "gnuicecat"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#002f5b"
+  },
+  {
+    "name": "google-analytics",
+    "altnames": [
+      "googleanalytics"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#e37400"
+  },
+  {
+    "name": "google-search-console",
+    "altnames": [
+      "googlesearchconsole"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "seo-webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#458cf5"
+  },
+  {
+    "name": "google-sheets",
+    "altnames": [
+      "googlesheets"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#34a853"
+  },
+  {
+    "name": "gradio",
+    "altnames": [
+      "gradio"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "api-development",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f97316"
+  },
+  {
+    "name": "grapheneos",
+    "altnames": [
+      "grapheneos"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0053a3"
+  },
+  {
+    "name": "gridsome",
+    "altnames": [
+      "gridsome"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "frameworks",
+      "static-site"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#00a672"
+  },
+  {
+    "name": "gtk",
+    "altnames": [
+      "gtk"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#7fe719"
+  },
+  {
+    "name": "helium-browser",
+    "altnames": [
+      "heliumbrowser"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3450d1"
+  },
+  {
+    "name": "hetzner",
+    "altnames": [
+      "hetzner"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#d50c2d"
+  },
+  {
+    "name": "hexo",
+    "altnames": [
+      "hexo"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "frameworks",
+      "static-site"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0e83cd"
+  },
+  {
+    "name": "hono",
+    "altnames": [
+      "hono"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#e36002"
+  },
+  {
+    "name": "hostinger",
+    "altnames": [
+      "hostinger"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#673de6"
+  },
+  {
+    "name": "hotjar",
+    "altnames": [
+      "hotjar"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff3c00"
+  },
+  {
+    "name": "hyper",
+    "altnames": [
+      "hyper"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "iced",
+    "altnames": [
+      "iced"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3645ff"
+  },
+  {
+    "name": "icloud",
+    "altnames": [
+      "icloud"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3693f3"
+  },
+  {
+    "name": "iterm2",
+    "altnames": [
+      "iterm2"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "jsr",
+    "altnames": [
+      "jsr"
+    ],
+    "category": "devops",
+    "tags": [
+      "devops",
+      "package-manager"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f7df1e"
+  },
+  {
+    "name": "kde-plasma",
+    "altnames": [
+      "kdeplasma"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "desktop-environment",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#1d99f3"
+  },
+  {
+    "name": "kong",
+    "altnames": [
+      "kong"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "api-development",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#003459"
+  },
+  {
+    "name": "krita",
+    "altnames": [
+      "krita"
+    ],
+    "category": "design",
+    "tags": [
+      "design"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3babff"
+  },
+  {
+    "name": "langchain",
+    "altnames": [
+      "langchain"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#7fc8ff"
+  },
+  {
+    "name": "line",
+    "altnames": [
+      "line"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#00c300"
+  },
+  {
+    "name": "lineageos",
+    "altnames": [
+      "lineageos"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#167c80"
+  },
+  {
+    "name": "lit",
+    "altnames": [
+      "lit"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#324fff"
+  },
+  {
+    "name": "looker",
+    "altnames": [
+      "looker"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4285f4"
+  },
+  {
+    "name": "mailgun",
+    "altnames": [
+      "mailgun"
+    ],
+    "category": "email",
+    "tags": [
+      "email"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f06b66"
+  },
+  {
+    "name": "manjaro",
+    "altnames": [
+      "manjaro"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#35bfa4"
+  },
+  {
+    "name": "marko",
+    "altnames": [
+      "marko"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#2596be"
+  },
+  {
+    "name": "material-for-mkdocs",
+    "altnames": [
+      "materialformkdocs"
+    ],
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#526cfe"
+  },
+  {
+    "name": "matrix",
+    "altnames": [
+      "matrix"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "mdx",
+    "altnames": [
+      "mdx"
+    ],
+    "category": "languages",
+    "tags": [
+      "languages",
+      "programming-language"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#1b1f24"
+  },
+  {
+    "name": "mediafire",
+    "altnames": [
+      "mediafire"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#1299f3"
+  },
+  {
+    "name": "mega",
+    "altnames": [
+      "mega"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#d9272e"
+  },
+  {
+    "name": "messenger",
+    "altnames": [
+      "messenger"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0866ff"
+  },
+  {
+    "name": "minio",
+    "altnames": [
+      "minio"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#c72e49"
+  },
+  {
+    "name": "miro",
+    "altnames": [
+      "miro"
+    ],
+    "category": "productivity",
+    "tags": [
+      "collaboration-tool",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#050038"
+  },
+  {
+    "name": "mistral-ai",
+    "altnames": [
+      "mistralai"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#fa520f"
+  },
+  {
+    "name": "mlflow",
+    "altnames": [
+      "mlflow"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics",
+      "data-science"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0194e2"
+  },
+  {
+    "name": "mx-linux",
+    "altnames": [
+      "mxlinux"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "nobara-linux",
+    "altnames": [
+      "nobaralinux"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "notion",
+    "altnames": [
+      "notion"
+    ],
+    "category": "productivity",
+    "tags": [
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "nvidia",
+    "altnames": [
+      "nvidia"
+    ],
+    "category": "other",
+    "tags": [
+      "framework",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#76b900"
+  },
+  {
+    "name": "obsidian",
+    "altnames": [
+      "obsidian"
+    ],
+    "category": "productivity",
+    "tags": [
+      "code-editor",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#7c3aed"
+  },
+  {
+    "name": "octopus-deploy",
+    "altnames": [
+      "octopusdeploy"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#2f93e0"
+  },
+  {
+    "name": "odoo",
+    "altnames": [
+      "odoo"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#714b67"
+  },
+  {
+    "name": "omarchy",
+    "altnames": [
+      "omarchy"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#9ece6a"
+  },
+  {
+    "name": "onnx",
+    "altnames": [
+      "onnx"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#005ced"
+  },
+  {
+    "name": "openbsd",
+    "altnames": [
+      "openbsd"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f2ca30"
+  },
+  {
+    "name": "openrouter",
+    "altnames": [
+      "openrouter"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "api-development",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#94a3b8"
+  },
+  {
+    "name": "opera-gx",
+    "altnames": [
+      "operagx"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ee2950"
+  },
+  {
+    "name": "optuna",
+    "altnames": [
+      "optuna"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics",
+      "data-science"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#002c76"
+  },
+  {
+    "name": "pelican",
+    "altnames": [
+      "pelican"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "frameworks",
+      "static-site"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#14a0c4"
+  },
+  {
+    "name": "perforce",
+    "altnames": [
+      "perforce"
+    ],
+    "category": "devops",
+    "tags": [
+      "devops",
+      "version-control"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4c00ff"
+  },
+  {
+    "name": "perplexity",
+    "altnames": [
+      "perplexity"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#1fb8cd"
+  },
+  {
+    "name": "planetscale",
+    "altnames": [
+      "planetscale"
+    ],
+    "category": "databases",
+    "tags": [
+      "database",
+      "databases"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "pop-os",
+    "altnames": [
+      "popos"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#48b9c7"
+  },
+  {
+    "name": "preact",
+    "altnames": [
+      "preact"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#673ab8"
+  },
+  {
+    "name": "proton-drive",
+    "altnames": [
+      "protondrive"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-storage"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#eb508d"
+  },
+  {
+    "name": "proton-mail",
+    "altnames": [
+      "protonmail"
+    ],
+    "category": "email",
+    "tags": [
+      "email",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6d4aff"
+  },
+  {
+    "name": "pydantic",
+    "altnames": [
+      "pydantic"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#e92063"
+  },
+  {
+    "name": "qubes-os",
+    "altnames": [
+      "qubesos"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3874d8"
+  },
+  {
+    "name": "qwen",
+    "altnames": [
+      "qwen"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6950ef"
+  },
+  {
+    "name": "react-hook-form",
+    "altnames": [
+      "reacthookform"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ec5990"
+  },
+  {
+    "name": "react-query",
+    "altnames": [
+      "reactquery"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff4154"
+  },
+  {
+    "name": "react-table",
+    "altnames": [
+      "reacttable"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff4154"
+  },
+  {
+    "name": "readme",
+    "altnames": [
+      "readme"
+    ],
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#018ef5"
+  },
+  {
+    "name": "render",
+    "altnames": [
+      "render"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "renovate",
+    "altnames": [
+      "renovate"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#308be3"
+  },
+  {
+    "name": "resend",
+    "altnames": [
+      "resend"
+    ],
+    "category": "email",
+    "tags": [
+      "email"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "roboflow",
+    "altnames": [
+      "roboflow"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics",
+      "data-science"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6706ce"
+  },
+  {
+    "name": "ruff",
+    "altnames": [
+      "ruff"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-linter",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#d7ff64"
+  },
+  {
+    "name": "sap",
+    "altnames": [
+      "sap"
+    ],
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "cloud-system"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0faaff"
+  },
+  {
+    "name": "scratch",
+    "altnames": [
+      "scratch"
+    ],
+    "category": "languages",
+    "tags": [
+      "languages",
+      "programming-language"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#855cd6"
+  },
+  {
+    "name": "semaphore-ci",
+    "altnames": [
+      "semaphoreci"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#19a974"
+  },
+  {
+    "name": "semrush",
+    "altnames": [
+      "semrush"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "seo-webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff642d"
+  },
+  {
+    "name": "session",
+    "altnames": [
+      "session"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "signal",
+    "altnames": [
+      "signal"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#3b45fd"
+  },
+  {
+    "name": "sketchup",
+    "altnames": [
+      "sketchup"
+    ],
+    "category": "design",
+    "tags": [
+      "design"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#005f9e"
+  },
+  {
+    "name": "slint",
+    "altnames": [
+      "slint"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#2379f4"
+  },
+  {
+    "name": "snowflake",
+    "altnames": [
+      "snowflake"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "data-analytics",
+      "data-science"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#29b5e8"
+  },
+  {
+    "name": "snyk",
+    "altnames": [
+      "snyk"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4c4a73"
+  },
+  {
+    "name": "socket",
+    "altnames": [
+      "socket"
+    ],
+    "category": "devops",
+    "tags": [
+      "ci",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#c93cd7"
+  },
+  {
+    "name": "sonarqube-cloud",
+    "altnames": [
+      "sonarqubecloud"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#126ed3"
+  },
+  {
+    "name": "sphinx",
+    "altnames": [
+      "sphinx"
+    ],
+    "category": "productivity",
+    "tags": [
+      "documentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "spring-security",
+    "altnames": [
+      "springsecurity"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#6db33f"
+  },
+  {
+    "name": "stackhawk",
+    "altnames": [
+      "stackhawk"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-coverage",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#00cbc6"
+  },
+  {
+    "name": "strapi",
+    "altnames": [
+      "strapi"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4945ff"
+  },
+  {
+    "name": "sublime-text",
+    "altnames": [
+      "sublimetext"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "code-editor",
+      "editors-terminals"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ff9800"
+  },
+  {
+    "name": "sui",
+    "altnames": [
+      "sui"
+    ],
+    "category": "languages",
+    "tags": [
+      "languages",
+      "programming-language"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4da2ff"
+  },
+  {
+    "name": "tails",
+    "altnames": [
+      "tails"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#56347c"
+  },
+  {
+    "name": "telegram",
+    "altnames": [
+      "telegram"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#26a5e4"
+  },
+  {
+    "name": "teradata",
+    "altnames": [
+      "teradata"
+    ],
+    "category": "databases",
+    "tags": [
+      "database",
+      "databases"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f37440"
+  },
+  {
+    "name": "thunderbird",
+    "altnames": [
+      "thunderbird"
+    ],
+    "category": "email",
+    "tags": [
+      "email",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0a84ff"
+  },
+  {
+    "name": "tor-browser",
+    "altnames": [
+      "torbrowser"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#7d4698"
+  },
+  {
+    "name": "transifex",
+    "altnames": [
+      "transifex"
+    ],
+    "category": "productivity",
+    "tags": [
+      "collaboration-tool",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0064ab"
+  },
+  {
+    "name": "ty",
+    "altnames": [
+      "ty"
+    ],
+    "category": "devops",
+    "tags": [
+      "code-type-checker",
+      "devops"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#46ebe1"
+  },
+  {
+    "name": "unraid",
+    "altnames": [
+      "unraid"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f15a2c"
+  },
+  {
+    "name": "unsplash",
+    "altnames": [
+      "unsplash"
+    ],
+    "category": "design",
+    "tags": [
+      "design"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "v0",
+    "altnames": [
+      "v0"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "viber",
+    "altnames": [
+      "viber"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#7360f2"
+  },
+  {
+    "name": "vivaldi",
+    "altnames": [
+      "vivaldi"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#ef3939"
+  },
+  {
+    "name": "void-linux",
+    "altnames": [
+      "voidlinux"
+    ],
+    "category": "operating-systems",
+    "tags": [
+      "operating-system",
+      "operating-systems"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#478061"
+  },
+  {
+    "name": "wagmi",
+    "altnames": [
+      "wagmi"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "framework",
+      "frameworks"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#000000"
+  },
+  {
+    "name": "warp",
+    "altnames": [
+      "warp"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#01a4ff"
+  },
+  {
+    "name": "wechat",
+    "altnames": [
+      "wechat"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#07c160"
+  },
+  {
+    "name": "wezterm",
+    "altnames": [
+      "wezterm"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "editors-terminals",
+      "terminal"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#4e49ee"
+  },
+  {
+    "name": "whatsapp",
+    "altnames": [
+      "whatsapp"
+    ],
+    "category": "messaging",
+    "tags": [
+      "messaging",
+      "social-media"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#25d366"
+  },
+  {
+    "name": "windsurf",
+    "altnames": [
+      "windsurf"
+    ],
+    "category": "editors-terminals",
+    "tags": [
+      "code-editor",
+      "editors-terminals"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0b100f"
+  },
+  {
+    "name": "yolo",
+    "altnames": [
+      "yolo"
+    ],
+    "category": "ai",
+    "tags": [
+      "ai",
+      "artificial-intelligence"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#111f68"
+  },
+  {
+    "name": "zen-browser",
+    "altnames": [
+      "zenbrowser"
+    ],
+    "category": "other",
+    "tags": [
+      "browser",
+      "other"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#f76f53"
+  },
+  {
+    "name": "zoom",
+    "altnames": [
+      "zoom"
+    ],
+    "category": "messaging",
+    "tags": [
+      "collaboration-tool",
+      "messaging"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "plain"
+      ]
+    },
+    "color": "#0b5cff"
+  }
+]
