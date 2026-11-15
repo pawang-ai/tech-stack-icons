@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use tech-stack-icons in research or documentation, please cite it as below."
+title: "tech-stack-icons: open-source SVG icons for programming languages, frameworks, tools, cloud and AI"
+type: software
+authors:
+  - name: "pawang-ai"
+repository-code: "https://github.com/pawang-ai/tech-stack-icons"
+url: "https://github.com/pawang-ai/tech-stack-icons"
+license: MIT
+keywords:
+  - svg icons
+  - tech stack icons
+  - developer icons
+  - programming language logos
+  - devicon alternative
+date-released: "2026-11-16"

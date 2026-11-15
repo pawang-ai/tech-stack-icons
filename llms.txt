@@ -1,0 +1,19 @@
+# tech-stack-icons
+
+> Free, open-source library of SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, and data, SEO, messaging, email and office tools. Maintained by pawang-ai. Compatible in naming and variants with devicon.
+
+Icons are served from GitHub through the jsDelivr CDN, installable from npm, or copied as raw SVG. Code and original artwork are MIT-licensed; brand logos remain the property of their owners.
+
+## Docs
+- [README](https://github.com/pawang-ai/tech-stack-icons/blob/main/README.md): overview, quick start, variants, FAQ
+- [Catalog](https://github.com/pawang-ai/tech-stack-icons/blob/main/icons.json): machine-readable list of every icon with aliases, tags, variants and brand color
+- [Schema](https://github.com/pawang-ai/tech-stack-icons/blob/main/icons.schema.json): JSON Schema for icons.json
+- [Contributing](https://github.com/pawang-ai/tech-stack-icons/blob/main/CONTRIBUTING.md): how to add or fix an icon
+
+## URL pattern
+- https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/{name}/{name}-{variant}.svg
+- Variants: original, original-wordmark, plain, plain-wordmark, line, line-wordmark
+
+## Optional
+- [License](https://github.com/pawang-ai/tech-stack-icons/blob/main/LICENSE)
+- [Citation](https://github.com/pawang-ai/tech-stack-icons/blob/main/CITATION.cff)
