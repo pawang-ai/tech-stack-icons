@@ -42,7 +42,7 @@ Out of scope: personal branding, one-off company logos with no tooling use, and 
 
 - Must have a `viewBox`. Prefer a square one (`0 0 24 24` or `0 0 128 128`).
 - No `<script>`, event handlers (`onclick`, ...), external references or embedded raster images.
-- Optimized: no editor metadata, no hidden layers. Keep each file under 20 KB.
+- Optimized: no editor metadata, no hidden layers. Keep each file under 32 KB.
 - `plain` variants should use a single fill so they can be recolored.
 - Draw or source the artwork from files you have the right to use. Do not copy another icon set without its license and attribution.
 

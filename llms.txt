@@ -11,7 +11,7 @@ Icons are served from GitHub through the jsDelivr CDN, installable from npm, or 
 - [Contributing](https://github.com/pawang-ai/tech-stack-icons/blob/main/CONTRIBUTING.md): how to add or fix an icon
 
 ## URL pattern
-- https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/{name}/{name}-{variant}.svg
+- https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/{name}/{name}-{variant}.svg
 - Variants: original, original-wordmark, plain, plain-wordmark, line, line-wordmark
 
 ## Optional

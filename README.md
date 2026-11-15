@@ -40,8 +40,8 @@ Scope rules are in [CONTRIBUTING.md](CONTRIBUTING.md#scope-what-belongs-here). I
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/react/react-original.svg"
-  alt="React"
+  src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/hono/hono-original.svg"
+  alt="Hono"
   width="48"
   height="48"
 />
@@ -50,16 +50,16 @@ Scope rules are in [CONTRIBUTING.md](CONTRIBUTING.md#scope-what-belongs-here). I
 URL pattern:
 
 ```text
-https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/{name}/{name}-{variant}.svg
+https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/{name}/{name}-{variant}.svg
 ```
 
 ### Use in a GitHub README
 
 ```md
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/typescript/typescript-original.svg" width="40" alt="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/nextjs/nextjs-original.svg" width="40" alt="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@latest/icons/postgresql/postgresql-original.svg" width="40" alt="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/hono/hono-original.svg" width="40" alt="Hono" />
+  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/whatsapp/whatsapp-original.svg" width="40" alt="WhatsApp" />
+  <img src="https://cdn.jsdelivr.net/gh/pawang-ai/tech-stack-icons@main/icons/google-search-console/google-search-console-original.svg" width="40" alt="Google Search Console" />
 </p>
 ```
 
@@ -72,8 +72,8 @@ npm install tech-stack-icons
 ```js
 import icons from "tech-stack-icons/icons.json";
 
-const react = icons.find((i) => i.name === "react");
-console.log(react.versions.svg); // ["original", "plain", "line"]
+const hono = icons.find((i) => i.name === "hono");
+console.log(hono.versions.svg); // ["original", "plain"]
 ```
 
 ### Copy the SVG
@@ -96,20 +96,20 @@ Open any file in [`/icons`](icons) and paste the raw SVG into your project.
 
 | Category | Examples |
 | --- | --- |
-| Programming languages | JavaScript, TypeScript, Python, Go, Rust |
-| Frameworks and libraries | React, Next.js, Vue, Svelte, Hono |
-| Databases and ORM | PostgreSQL, MongoDB, Redis, Drizzle |
-| Cloud and hosting | AWS, Cloudflare, Vercel, Fly.io |
-| CI/CD and DevOps | GitHub Actions, Docker, Terraform |
-| AI and machine learning | Claude, Hugging Face, PyTorch, Ollama |
-| Editors and terminals | VS Code, Neovim, Ghostty, Warp |
-| Operating systems | Linux, Arch, Ubuntu, FreeBSD |
-| Design | Figma, Blender, Krita |
-| Data and analytics | Excel, Power BI, Tableau, Google Analytics, Microsoft Clarity |
-| SEO and webmaster tools | Google Search Console, Bing Webmaster Tools, Ahrefs, Semrush |
-| Messaging | WhatsApp, Telegram, Slack, Discord |
-| Email | Gmail, Outlook, Proton Mail, Resend, SendGrid |
-| Productivity and office | Word, PowerPoint, Notion, Obsidian |
+| Programming languages | AssemblyScript, MDX, Scratch |
+| Frameworks and libraries | Hono, Preact, LangChain, Pydantic |
+| Databases and ORM | Drizzle, ArangoDB, PlanetScale |
+| Cloud and hosting | Hetzner, Fly.io, Render, Dropbox |
+| CI/CD and DevOps | Dependabot, Snyk, Ruff, JSR |
+| AI and machine learning | DeepSeek, Mistral AI, Perplexity, Qwen |
+| Editors and terminals | Ghostty, Warp, Sublime Text, Wezterm |
+| Operating systems | FreeBSD, Manjaro, Alpine Linux |
+| Design | Krita, Dribbble, SketchUp |
+| Data and analytics | Google Analytics, Google Sheets, Looker, Hotjar |
+| SEO and webmaster tools | Google Search Console, Semrush |
+| Messaging | WhatsApp, Telegram, Discord, Zoom |
+| Email | Gmail, Proton Mail, Thunderbird, Resend |
+| Productivity and office | Notion, Obsidian, Asana |
 
 > The catalog grows with every release. See [`icons.json`](icons.json) for the full, current list.
 
@@ -134,12 +134,22 @@ tech-stack-icons/
 
 ```json
 {
-  "name": "react",
-  "altnames": ["reactjs"],
+  "name": "hono",
+  "altnames": [
+    "hono"
+  ],
   "category": "frameworks",
-  "tags": ["framework", "javascript", "frontend"],
-  "versions": { "svg": ["original", "plain", "line"] },
-  "color": "#61dafb"
+  "tags": [
+    "framework",
+    "frameworks"
+  ],
+  "versions": {
+    "svg": [
+      "original",
+      "plain"
+    ]
+  },
+  "color": "#e36002"
 }
 ```
 

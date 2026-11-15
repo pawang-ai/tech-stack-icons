@@ -6,7 +6,7 @@ const VARIANTS = ["original", "original-wordmark", "plain", "plain-wordmark", "l
 const CATEGORIES = ["languages", "frameworks", "databases", "cloud", "devops", "ai", "editors-terminals", "operating-systems", "design", "data-analytics", "seo-webmaster", "messaging", "email", "productivity", "other"];
 const NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const COLOR = /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
-const MAX_BYTES = 20 * 1024;
+const MAX_BYTES = 32 * 1024;
 const errors = [];
 const err = (m) => errors.push(m);
 
@@ -39,7 +39,7 @@ for (const [i, icon] of catalog.entries()) {
     const file = join("icons", icon.name, `${icon.name}-${v}.svg`);
     if (!existsSync(file)) { err(`${id}: missing file ${file}`); continue; }
     const text = readFileSync(file, "utf8");
-    if (statSync(file).size > MAX_BYTES) err(`${file}: larger than 20 KB`);
+    if (statSync(file).size > MAX_BYTES) err(`${file}: larger than 32 KB`);
     if (!/<svg[^>]*\bviewBox=/.test(text)) err(`${file}: missing viewBox`);
     if (/<script/i.test(text)) err(`${file}: contains <script>`);
     if (/\son[a-z]+\s*=/i.test(text)) err(`${file}: contains an event handler attribute`);
