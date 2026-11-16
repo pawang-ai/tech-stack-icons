@@ -7,6 +7,9 @@ This repository bundles artwork from the following sources. Each entry in `icons
 | `devicon` | 657 | MIT, Copyright (c) 2015 konpa ([text](licenses/DEVICON-LICENSE.txt)) | https://github.com/devicons/devicon |
 | `simple-icons` | 3,021 | CC0 1.0 Universal (Simple Icons v16.38.0) | https://github.com/simple-icons/simple-icons |
 | `original` | 1 | MIT (this repository) | pawang-ai |
+| `contributed` | 11 | Supplied by the maintainers; the logos remain trademarks of their owners | pawang-ai |
+
+Icons with `source: contributed` were vectorized from raster logos and may be approximations. Replace them with the vendor's official vector file when one is available and its usage rules allow it.
 
 ## Trademarks
 

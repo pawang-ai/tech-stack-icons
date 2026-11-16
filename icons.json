@@ -1173,6 +1173,27 @@
     "source": "simple-icons"
   },
   {
+    "name": "ahrefs",
+    "altnames": [
+      "ahrefs-seo"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "backlinks",
+      "brand",
+      "keywords",
+      "seo",
+      "seo-webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original-wordmark"
+      ]
+    },
+    "color": "#0b50e8",
+    "source": "contributed"
+  },
+  {
     "name": "ai-dungeon",
     "altnames": [
       "aidungeon"
@@ -6514,6 +6535,28 @@
     },
     "color": "#f0b90b",
     "source": "simple-icons"
+  },
+  {
+    "name": "bing",
+    "altnames": [
+      "bing-webmaster-tools",
+      "microsoft-bing"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "brand",
+      "microsoft",
+      "search",
+      "seo-webmaster",
+      "webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#008373",
+    "source": "contributed"
   },
   {
     "name": "bio-link",
@@ -22532,6 +22575,28 @@
     "source": "simple-icons"
   },
   {
+    "name": "google-business-profile",
+    "altnames": [
+      "gmb",
+      "google-my-business"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "brand",
+      "google",
+      "local-seo",
+      "maps",
+      "seo-webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#4285f4",
+    "source": "contributed"
+  },
+  {
     "name": "google-calendar",
     "altnames": [
       "googlecalendar"
@@ -35849,6 +35914,112 @@
     },
     "color": "#2b2728",
     "source": "simple-icons"
+  },
+  {
+    "name": "microsoft-clarity",
+    "altnames": [
+      "clarity-analytics",
+      "msclarity"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "analytics",
+      "brand",
+      "data-analytics",
+      "heatmap",
+      "microsoft"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#3b82d6",
+    "source": "contributed"
+  },
+  {
+    "name": "microsoft-excel",
+    "altnames": [
+      "excel"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "brand",
+      "data-analytics",
+      "microsoft",
+      "office",
+      "spreadsheet"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#217346",
+    "source": "contributed"
+  },
+  {
+    "name": "microsoft-outlook",
+    "altnames": [
+      "outlook"
+    ],
+    "category": "email",
+    "tags": [
+      "brand",
+      "email",
+      "microsoft",
+      "office"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#0078d4",
+    "source": "contributed"
+  },
+  {
+    "name": "microsoft-power-bi",
+    "altnames": [
+      "power-bi",
+      "powerbi"
+    ],
+    "category": "data-analytics",
+    "tags": [
+      "bi",
+      "brand",
+      "dashboard",
+      "data-analytics",
+      "microsoft"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#f2c811",
+    "source": "contributed"
+  },
+  {
+    "name": "microsoft-powerpoint",
+    "altnames": [
+      "powerpoint"
+    ],
+    "category": "productivity",
+    "tags": [
+      "brand",
+      "microsoft",
+      "office",
+      "presentation",
+      "productivity"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#d24726",
+    "source": "contributed"
   },
   {
     "name": "microsoftsqlserver",
@@ -51214,6 +51385,27 @@
     "source": "simple-icons"
   },
   {
+    "name": "screaming-frog",
+    "altnames": [
+      "screaming-frog-seo-spider",
+      "screamingfrog"
+    ],
+    "category": "seo-webmaster",
+    "tags": [
+      "brand",
+      "crawler",
+      "seo",
+      "seo-webmaster"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#6ba539",
+    "source": "contributed"
+  },
+  {
     "name": "screencastify",
     "altnames": [],
     "category": "other",
@@ -51719,6 +51911,26 @@
     },
     "color": "#86bc40",
     "source": "simple-icons"
+  },
+  {
+    "name": "sendgrid",
+    "altnames": [
+      "twilio-sendgrid"
+    ],
+    "category": "email",
+    "tags": [
+      "api",
+      "brand",
+      "email",
+      "transactional"
+    ],
+    "versions": {
+      "svg": [
+        "original-wordmark"
+      ]
+    },
+    "color": "#1a82e2",
+    "source": "contributed"
   },
   {
     "name": "sennheiser",
@@ -56472,6 +56684,25 @@
     },
     "color": "#f2cc38",
     "source": "simple-icons"
+  },
+  {
+    "name": "tableau",
+    "altnames": [],
+    "category": "data-analytics",
+    "tags": [
+      "bi",
+      "brand",
+      "dashboard",
+      "data-analytics",
+      "visualization"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#e97627",
+    "source": "contributed"
   },
   {
     "name": "tablecheck",

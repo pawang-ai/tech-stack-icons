@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-7ffbe6?style=for-the-badge&labelColor=0d1630)](LICENSE)
 [![Format: SVG](https://img.shields.io/badge/Format-SVG-3ac7ff?style=for-the-badge&labelColor=0d1630)](#quick-start)
 [![CDN: jsDelivr](https://img.shields.io/badge/CDN-jsDelivr-8a5cff?style=for-the-badge&labelColor=0d1630)](#use-via-cdn)
-[![Icons](https://img.shields.io/badge/Icons-3679-5fd0ff?style=for-the-badge&labelColor=0d1630)](icons.json)
+[![Icons](https://img.shields.io/badge/Icons-3690-5fd0ff?style=for-the-badge&labelColor=0d1630)](icons.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ffd84d?style=for-the-badge&labelColor=0d1630)](CONTRIBUTING.md)
 [![Request an icon](https://img.shields.io/badge/Request-an%20icon-ff7a9c?style=for-the-badge&labelColor=0d1630)](../../issues/new?template=icon-request.md)
 
@@ -19,13 +19,13 @@
 
 ## What is tech-stack-icons?
 
-**tech-stack-icons is a free, open-source library of 3,679+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, SEO and analytics tools, messaging apps and popular brands.** It aims to be the most complete SVG icon set for tech stacks, portfolios, documentation and web apps.
+**tech-stack-icons is a free, open-source library of 3,690+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, SEO and analytics tools, messaging apps and popular brands.** It aims to be the most complete SVG icon set for tech stacks, portfolios, documentation and web apps.
 
 It combines the full [devicon](https://github.com/devicons/devicon) catalog (with its original, plain, line and wordmark variants) and the [Simple Icons](https://simpleicons.org) catalog, deduplicated and organized in one consistent structure, so every icon is available through one URL pattern and one machine-readable `icons.json`. See [NOTICE.md](NOTICE.md) for sources and licenses. Scope rules are in [CONTRIBUTING.md](CONTRIBUTING.md#scope-what-belongs-here). Built and maintained by [pawang-ai](https://github.com/pawang-ai).
 
 ## Why use it
 
-- **Wide coverage.** 3,679+ icons and 8,145 SVG files across 19 categories, from languages and cloud to SEO, messaging, email and finance.
+- **Wide coverage.** 3,690+ icons and 8,156 SVG files across 19 categories, from languages and cloud to SEO, messaging, email and finance.
 - **Clean SVG.** Optimized, scalable, no tracking, no runtime dependency.
 - **Multiple variants.** Colored and monochrome, with or without wordmark.
 - **CDN-ready.** Load any icon by URL, no install needed.
@@ -107,11 +107,11 @@ Open any file in [`/icons`](icons) and paste the raw SVG into your project.
 | Editors and terminals | 59 | VS Code, Neovim, Vim, IntelliJ IDEA, Ghostty |
 | Operating systems | 35 | Linux, Ubuntu, Debian, FreeBSD, AlmaLinux |
 | Design | 23 | Figma, Blender, Krita, Canva, Babylon.js |
-| Data and analytics | 21 | Google Sheets, Looker, Hotjar, Databricks, Anaconda |
-| SEO and webmaster tools | 4 | Google Search Console, Google Analytics, Semrush, Yoast |
+| Data and analytics | 25 | Google Sheets, Excel, Power BI, Tableau, Microsoft Clarity |
+| SEO and webmaster tools | 8 | Google Search Console, Bing, Ahrefs, Semrush, Screaming Frog |
 | Messaging | 12 | WhatsApp, Telegram, Discord, Zoom, Element |
-| Email | 11 | Gmail, Proton Mail, Thunderbird, Resend, Email |
-| Productivity and office | 14 | Obsidian, Asana, Airtable, ClickUp, Coda |
+| Email | 13 | Gmail, Outlook, Proton Mail, SendGrid, Resend |
+| Productivity and office | 15 | PowerPoint, Obsidian, Asana, Airtable, ClickUp |
 | Social media | 34 | YouTube, Instagram, TikTok, Reddit, Pinterest |
 | Finance, payments and crypto | 37 | PayPal, Stripe, Bitcoin, Ethereum, Visa |
 | Entertainment and gaming | 29 | Steam, Netflix, PlayStation, Apple Music, Apple Podcasts |
@@ -202,7 +202,7 @@ If you are a rights holder and want a logo changed or removed, [open an issue](.
 
 ## Credits
 
-Icon artwork comes from [devicon](https://github.com/devicons/devicon) (MIT) and [Simple Icons](https://simpleicons.org) (CC0 1.0), plus original artwork by the maintainers. See [NOTICE.md](NOTICE.md). Thanks to every contributor.
+Icon artwork comes from [devicon](https://github.com/devicons/devicon) (MIT) and [Simple Icons](https://simpleicons.org) (CC0 1.0), plus logos and original artwork contributed by the maintainers. See [NOTICE.md](NOTICE.md). Thanks to every contributor.
 
 ## Citation
 
