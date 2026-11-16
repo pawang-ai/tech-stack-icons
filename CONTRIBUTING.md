@@ -37,7 +37,7 @@ New icons from Simple Icons or devicon that are already in the catalog should no
 1. Fork the repository and create a branch named `icon/{name}`.
 2. Create `icons/{name}/` where `{name}` is lowercase letters, digits and hyphens only (for example `nextjs`, `github-actions`).
 3. Add at least one SVG named `{name}-{variant}.svg`. Allowed variants:
-   `original`, `original-wordmark`, `plain`, `plain-wordmark`, `line`, `line-wordmark`.
+   `original`, `original-wordmark`, `original-wordmark-dark` (wordmark for dark backgrounds), `plain`, `plain-wordmark`, `line`, `line-wordmark`.
 4. Add an entry to `icons.json`, including a valid `category` (see the schema in `icons.schema.json`).
 5. Run `npm run validate` and fix anything it reports.
 6. Open a pull request and fill in the template.

@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-7ffbe6?style=for-the-badge&labelColor=0d1630)](LICENSE)
 [![Format: SVG](https://img.shields.io/badge/Format-SVG-3ac7ff?style=for-the-badge&labelColor=0d1630)](#quick-start)
 [![CDN: jsDelivr](https://img.shields.io/badge/CDN-jsDelivr-8a5cff?style=for-the-badge&labelColor=0d1630)](#use-via-cdn)
-[![Icons](https://img.shields.io/badge/Icons-3690-5fd0ff?style=for-the-badge&labelColor=0d1630)](icons.json)
+[![Icons](https://img.shields.io/badge/Icons-3692-5fd0ff?style=for-the-badge&labelColor=0d1630)](icons.json)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ffd84d?style=for-the-badge&labelColor=0d1630)](CONTRIBUTING.md)
 [![Request an icon](https://img.shields.io/badge/Request-an%20icon-ff7a9c?style=for-the-badge&labelColor=0d1630)](../../issues/new?template=icon-request.md)
 
@@ -19,13 +19,13 @@
 
 ## What is tech-stack-icons?
 
-**tech-stack-icons is a free, open-source library of 3,690+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, SEO and analytics tools, messaging apps and popular brands.** It aims to be the most complete SVG icon set for tech stacks, portfolios, documentation and web apps.
+**tech-stack-icons is a free, open-source library of 3,692+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, SEO and analytics tools, messaging apps and popular brands.** It aims to be the most complete SVG icon set for tech stacks, portfolios, documentation and web apps.
 
 It combines the full [devicon](https://github.com/devicons/devicon) catalog (with its original, plain, line and wordmark variants) and the [Simple Icons](https://simpleicons.org) catalog, deduplicated and organized in one consistent structure, so every icon is available through one URL pattern and one machine-readable `icons.json`. See [NOTICE.md](NOTICE.md) for sources and licenses. Scope rules are in [CONTRIBUTING.md](CONTRIBUTING.md#scope-what-belongs-here). Built and maintained by [pawang-ai](https://github.com/pawang-ai).
 
 ## Why use it
 
-- **Wide coverage.** 3,690+ icons and 8,156 SVG files across 19 categories, from languages and cloud to SEO, messaging, email and finance.
+- **Wide coverage.** 3,692+ icons and 8,160 SVG files across 19 categories, from languages and cloud to SEO, messaging, email and finance.
 - **Clean SVG.** Optimized, scalable, no tracking, no runtime dependency.
 - **Multiple variants.** Colored and monochrome, with or without wordmark.
 - **CDN-ready.** Load any icon by URL, no install needed.
@@ -90,6 +90,7 @@ Open any file in [`/icons`](icons) and paste the raw SVG into your project.
 | --- | --- | --- |
 | `original` | Full-color brand logo | Portfolios, READMEs |
 | `original-wordmark` | Full-color logo with the name | Tech stack sections |
+| `original-wordmark-dark` | Wordmark with light text, for dark backgrounds | Dark-mode pages |
 | `plain` | Single-shape. Simple Icons versions use `currentColor` (black via `<img>`, recolor by inlining the SVG) | Themes, dark mode |
 | `plain-wordmark` | Single-shape with the name | Footers, badges |
 | `line` | Outline style | Minimal UIs |
@@ -99,7 +100,7 @@ Open any file in [`/icons`](icons) and paste the raw SVG into your project.
 | Category | Icons | Examples |
 | --- | ---: | --- |
 | Programming languages | 93 | JavaScript, TypeScript, Python, Go, Rust |
-| Frameworks and libraries | 202 | React, Next.js, Vue.js, Svelte, Hono |
+| Frameworks and libraries | 204 | React, Next.js, Vue.js, Svelte, Hono |
 | Databases and ORM | 51 | PostgreSQL, MongoDB, MySQL, Prisma, Drizzle |
 | Cloud and hosting | 45 | AWS, Google Cloud, Vercel, Netlify, Hetzner |
 | CI/CD, DevOps and testing | 122 | Kubernetes, GitHub Actions, Terraform, Jest, npm |

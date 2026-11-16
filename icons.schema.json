@@ -68,6 +68,7 @@
               "enum": [
                 "original",
                 "original-wordmark",
+                "original-wordmark-dark",
                 "plain",
                 "plain-wordmark",
                 "line",

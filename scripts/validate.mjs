@@ -2,7 +2,7 @@
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-const VARIANTS = ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"];
+const VARIANTS = ["original", "original-wordmark", "original-wordmark-dark", "plain", "plain-wordmark", "line", "line-wordmark"];
 const CATEGORIES = ["languages", "frameworks", "databases", "cloud", "devops", "ai", "editors-terminals", "operating-systems", "design", "data-analytics", "seo-webmaster", "messaging", "email", "productivity", "social-media", "finance", "entertainment-gaming", "education", "other"];
 const NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const COLOR = /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;

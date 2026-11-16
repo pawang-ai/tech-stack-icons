@@ -1,6 +1,6 @@
 # tech-stack-icons
 
-> Free, open-source library of 3,690+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, and data, SEO, messaging, email and office tools. Maintained by pawang-ai. Includes the full devicon catalog plus Simple Icons, deduplicated.
+> Free, open-source library of 3,692+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, and data, SEO, messaging, email and office tools. Maintained by pawang-ai. Includes the full devicon catalog plus Simple Icons, deduplicated.
 
 Icons are served from GitHub through the jsDelivr CDN, installable from npm, or copied as raw SVG. Code and original artwork are MIT-licensed; brand logos remain the property of their owners.
 

@@ -17135,6 +17135,52 @@
     "source": "simple-icons"
   },
   {
+    "name": "emdash",
+    "altnames": [
+      "em-dash",
+      "emdash-cms"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "brand",
+      "cms",
+      "emdash",
+      "frameworks",
+      "headless-cms"
+    ],
+    "versions": {
+      "svg": [
+        "original",
+        "original-wordmark",
+        "original-wordmark-dark"
+      ]
+    },
+    "color": "#ff6633",
+    "source": "contributed"
+  },
+  {
+    "name": "emdash-alt",
+    "altnames": [
+      "emdash-app",
+      "emdash-m"
+    ],
+    "category": "frameworks",
+    "tags": [
+      "brand",
+      "cms",
+      "emdash",
+      "frameworks",
+      "headless-cms"
+    ],
+    "versions": {
+      "svg": [
+        "original"
+      ]
+    },
+    "color": "#1b0a7a",
+    "source": "contributed"
+  },
+  {
     "name": "emirates",
     "altnames": [],
     "category": "other",
