@@ -4,7 +4,7 @@ Thanks for helping. New icons, fixes, docs and tooling are all welcome.
 
 ## Scope: what belongs here
 
-An icon belongs here when the tool or service is used to **build, run, monitor, grow or communicate** around a digital product. That includes developer tools, and also the data, SEO, messaging, email and office tools that sit in a real-world tech stack.
+The goal is the most complete SVG icon library for technology. Any technology, tool, service, platform or brand that people show in a tech stack, portfolio, documentation or product belongs here.
 
 | Category (`category` value) | Examples |
 | --- | --- |
@@ -17,16 +17,20 @@ An icon belongs here when the tool or service is used to **build, run, monitor, 
 | `editors-terminals` | VS Code, Neovim, Ghostty |
 | `operating-systems` | Linux, Arch, FreeBSD |
 | `design` | Figma, Blender, Krita |
-| `data-analytics` | Excel, Power BI, Tableau, Google Analytics, Microsoft Clarity |
+| `data-analytics` | Excel, Power BI, Google Analytics, Microsoft Clarity |
 | `seo-webmaster` | Google Search Console, Bing Webmaster Tools, Ahrefs, Semrush |
 | `messaging` | WhatsApp, Telegram, Slack, Discord |
-| `email` | Gmail, Outlook, Proton Mail, Resend, SendGrid |
+| `email` | Gmail, Outlook, Proton Mail, Resend |
 | `productivity` | Word, PowerPoint, Notion, Obsidian |
-| `other` | Anything useful that fits none of the above |
+| `social-media` | GitHub, LinkedIn, YouTube, Reddit |
+| `finance` | PayPal, Stripe, Bitcoin, Visa |
+| `entertainment-gaming` | Steam, Spotify, Twitch |
+| `education` | Udemy, Coursera, freeCodeCamp |
+| `other` | Anything that fits none of the above |
 
-Out of scope: personal branding, one-off company logos with no tooling use, and anything that is not a tool, language, service or platform.
+New icons from Simple Icons or devicon that are already in the catalog should not be added twice. Pick a more specific category than `other` whenever one fits; recategorizing existing icons is a welcome contribution.
 
-**Naming:** use the product's own name, and prefix with the vendor when the name is ambiguous. Example: `microsoft-clarity` (analytics) versus `clarity-lang` (smart contract language).
+**Naming:** use the product's own name, and prefix with the vendor when the name is ambiguous. Example: `microsoft-clarity` (analytics) versus `clarity` (smart contract language).
 
 ## Add an icon
 
@@ -42,9 +46,9 @@ Out of scope: personal branding, one-off company logos with no tooling use, and 
 
 - Must have a `viewBox`. Prefer a square one (`0 0 24 24` or `0 0 128 128`).
 - No `<script>`, event handlers (`onclick`, ...), external references or embedded raster images.
-- Optimized: no editor metadata, no hidden layers. Keep each file under 32 KB.
+- Optimized: no editor metadata, no hidden layers. Keep each file under 32 KB (hard limit 400 KB).
 - `plain` variants should use a single fill so they can be recolored.
-- Draw or source the artwork from files you have the right to use. Do not copy another icon set without its license and attribution.
+- Draw or source the artwork from files you have the right to use. Set `"source": "contributed"` for new icons, and keep third-party licenses in `NOTICE.md`.
 
 ## icons.json entry
 

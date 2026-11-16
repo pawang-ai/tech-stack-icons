@@ -1,6 +1,6 @@
 # tech-stack-icons
 
-> Free, open-source library of SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, and data, SEO, messaging, email and office tools. Maintained by pawang-ai. Compatible in naming and variants with devicon.
+> Free, open-source library of 3,679+ SVG icons for programming languages, frameworks, developer tools, cloud platforms, databases, AI products, and data, SEO, messaging, email and office tools. Maintained by pawang-ai. Includes the full devicon catalog plus Simple Icons, deduplicated.
 
 Icons are served from GitHub through the jsDelivr CDN, installable from npm, or copied as raw SVG. Code and original artwork are MIT-licensed; brand logos remain the property of their owners.
 
@@ -8,6 +8,7 @@ Icons are served from GitHub through the jsDelivr CDN, installable from npm, or 
 - [README](https://github.com/pawang-ai/tech-stack-icons/blob/main/README.md): overview, quick start, variants, FAQ
 - [Catalog](https://github.com/pawang-ai/tech-stack-icons/blob/main/icons.json): machine-readable list of every icon with aliases, tags, variants and brand color
 - [Schema](https://github.com/pawang-ai/tech-stack-icons/blob/main/icons.schema.json): JSON Schema for icons.json
+- [Notice and licenses](https://github.com/pawang-ai/tech-stack-icons/blob/main/NOTICE.md): sources (devicon MIT, Simple Icons CC0) and trademark policy
 - [Contributing](https://github.com/pawang-ai/tech-stack-icons/blob/main/CONTRIBUTING.md): how to add or fix an icon
 
 ## URL pattern

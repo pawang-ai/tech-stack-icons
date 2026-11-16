@@ -39,6 +39,10 @@
           "messaging",
           "email",
           "productivity",
+          "social-media",
+          "finance",
+          "entertainment-gaming",
+          "education",
           "other"
         ]
       },
@@ -76,6 +80,14 @@
       "color": {
         "type": "string",
         "pattern": "^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$"
+      },
+      "source": {
+        "enum": [
+          "devicon",
+          "simple-icons",
+          "original",
+          "contributed"
+        ]
       }
     }
   }

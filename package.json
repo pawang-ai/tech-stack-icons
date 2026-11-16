@@ -1,13 +1,34 @@
 {
   "name": "tech-stack-icons",
   "version": "0.1.0",
-  "description": "Open-source SVG icons for programming languages, frameworks, developer tools, cloud platforms and AI brands.",
-  "keywords": ["icons", "svg-icons", "tech-stack-icons", "developer-icons", "devicon-alternative", "logos"],
+  "description": "3,679+ open-source SVG icons for programming languages, frameworks, developer tools, cloud, AI, SEO, messaging and brands.",
+  "keywords": [
+    "icons",
+    "svg-icons",
+    "tech-stack-icons",
+    "developer-icons",
+    "devicon-alternative",
+    "logos"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/pawang-ai/tech-stack-icons#readme",
-  "repository": { "type": "git", "url": "git+https://github.com/pawang-ai/tech-stack-icons.git" },
-  "bugs": { "url": "https://github.com/pawang-ai/tech-stack-icons/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawang-ai/tech-stack-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pawang-ai/tech-stack-icons/issues"
+  },
   "type": "module",
-  "files": ["icons", "icons.json", "icons.schema.json", "LICENSE"],
-  "scripts": { "validate": "node scripts/validate.mjs" }
+  "files": [
+    "icons",
+    "icons.json",
+    "icons.schema.json",
+    "LICENSE",
+    "NOTICE.md",
+    "licenses"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
 }
