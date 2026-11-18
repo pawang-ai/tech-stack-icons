@@ -1,0 +1,42 @@
+name: Probe badges
+
+# Asks Shields.io to render every badge and checks that its logo shows.
+# Runs weekly and on demand (Actions -> Probe badges -> Run workflow).
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Which logo source to probe"
+        type: choice
+        options: [all, simple-icons, custom]
+        default: all
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Probe Shields.io
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ -n "$ONLY" ] && [ "$ONLY" != "all" ]; then
+            badgekit probe --only "$ONLY"
+          else
+            badgekit probe
+          fi

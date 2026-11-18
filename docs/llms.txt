@@ -1,0 +1,31 @@
+# markdown-badges-collection
+
+> Copy-paste Shields.io badges for GitHub README and profile: tech, framework and tool badges with official brand colors and logos from Simple Icons and devicon.
+
+This catalog has 311 badges in 15 categories. Each badge is a static Shields.io badge: `https://img.shields.io/badge/<Name>-<HEX>?logo=<simple-icons-slug>&logoColor=<white|black>`. Badges whose logo is missing from Simple Icons embed a single-color SVG from devicon as a base64 data URI instead.
+
+## Resources
+- [Searchable catalog](https://pawang-ai.github.io/markdown-badges-collection/): browse, filter and copy badges
+- [badges.json](https://pawang-ai.github.io/markdown-badges-collection/badges.json): machine-readable list of all badges
+- [README (English)](https://github.com/pawang-ai/markdown-badges-collection/blob/main/README.md)
+- [README (Bahasa Indonesia)](https://github.com/pawang-ai/markdown-badges-collection/blob/main/README.id.md)
+
+## Categories
+- Framework & Library: 78
+- Build Tool & Linter: 18
+- Programming Language & Runtime: 32
+- Database & Messaging: 30
+- DevOps & Infrastructure: 37
+- Operating System & Network: 12
+- Code Editor & Developer Tool: 25
+- Terminal: 3
+- CI: 1
+- Testing: 11
+- Platform, CMS & Service: 24
+- Design & Creative: 9
+- AI & Data Science: 9
+- Cloud & Hosting: 6
+- Other: 16
+
+## License
+MIT. Logos and brand names belong to their respective owners.

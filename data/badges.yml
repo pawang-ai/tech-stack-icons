@@ -1,0 +1,360 @@
+# Single source of truth for every badge in this repository.
+# Edit this file, then run `badgekit build` to regenerate README.md, README.id.md and docs/.
+# Format guide: see CONTRIBUTING.md.
+
+categories:
+  - {id: framework, name_en: "Framework & Library", name_id: "Framework & Pustaka"}
+  - {id: build-tool, name_en: "Build Tool & Linter", name_id: "Build Tool & Linter"}
+  - {id: language, name_en: "Programming Language & Runtime", name_id: "Bahasa Pemrograman & Runtime"}
+  - {id: database, name_en: "Database & Messaging", name_id: "Database & Messaging"}
+  - {id: devops, name_en: "DevOps & Infrastructure", name_id: "DevOps & Infrastruktur"}
+  - {id: os-network, name_en: "Operating System & Network", name_id: "Sistem Operasi & Jaringan"}
+  - {id: editor-tools, name_en: "Code Editor & Developer Tool", name_id: "Editor Kode & Alat Developer"}
+  - {id: terminal, name_en: "Terminal", name_id: "Terminal"}
+  - {id: ci, name_en: "CI", name_id: "CI"}
+  - {id: testing, name_en: "Testing", name_id: "Pengujian"}
+  - {id: platform, name_en: "Platform, CMS & Service", name_id: "Platform, CMS & Layanan"}
+  - {id: design, name_en: "Design & Creative", name_id: "Desain & Kreatif"}
+  - {id: ai-data, name_en: "AI & Data Science", name_id: "AI & Data Science"}
+  - {id: cloud, name_en: "Cloud & Hosting", name_id: "Cloud & Hosting"}
+  - {id: other, name_en: "Other", name_id: "Lainnya"}
+
+badges:
+  # Framework & Library
+  - {id: aframe, name: "A-Frame", slug: aframe, hex: "EF2D5E", logo_color: white, category: framework}
+  - {id: adonisjs, name: "AdonisJS", slug: adonisjs, hex: "5A45FF", logo_color: white, category: framework}
+  - {id: antdesign, name: "Ant Design", slug: antdesign, hex: "0170FE", logo_color: white, category: framework}
+  - {id: apachecordova, name: "Apache Cordova", slug: apachecordova, hex: "E8E8E8", logo_color: black, category: framework}
+  - {id: axios, name: "Axios", slug: axios, hex: "5A29E4", logo_color: white, category: framework}
+  - {id: babylondotjs, name: "Babylon.js", slug: babylondotjs, hex: "BB464B", logo_color: white, category: framework}
+  - {id: bulma, name: "Bulma", slug: bulma, hex: "00D1B2", logo_color: white, category: framework}
+  - {id: cakephp, name: "CakePHP", slug: cakephp, hex: "D33C43", logo_color: white, category: framework}
+  - {id: capacitor, name: "Capacitor", slug: capacitor, hex: "119EFF", logo_color: white, category: framework}
+  - {id: chakraui, name: "Chakra UI", slug: chakraui, hex: "1BB2A9", logo_color: white, category: framework}
+  - {id: codeigniter, name: "CodeIgniter", slug: codeigniter, hex: "EF4223", logo_color: white, category: framework}
+  - {id: contao, name: "Contao", slug: contao, hex: "F47C00", logo_color: white, category: framework}
+  - {id: d3, name: "D3", slug: d3, hex: "F9A03C", logo_color: black, category: framework}
+  - {id: doctrine, name: "Doctrine", slug: doctrine, hex: "FC6A31", logo_color: white, category: framework}
+  - {id: drupal, name: "Drupal", slug: drupal, hex: "0678BE", logo_color: white, category: framework}
+  - {id: eclipsevertdotx, name: "Eclipse Vert.x", slug: eclipsevertdotx, hex: "782A90", logo_color: white, category: framework}
+  - {id: filament, name: "Filament", slug: filament, hex: "FDAE4B", logo_color: black, category: framework}
+  - {id: handlebarsdotjs, name: "Handlebars.js", slug: handlebarsdotjs, hex: "000000", logo_color: white, category: framework}
+  - {id: jetpackcompose, name: "Jetpack Compose", slug: jetpackcompose, hex: "4285F4", logo_color: white, category: framework}
+  - {id: jhipster, name: "JHipster", slug: jhipster, hex: "3E8ACC", logo_color: white, category: framework}
+  - {id: knexdotjs, name: "Knex.js", slug: knexdotjs, hex: "D26B38", logo_color: white, category: framework}
+  - {id: ktor, name: "Ktor", slug: ktor, hex: "087CFA", logo_color: white, category: framework}
+  - {id: livewire, name: "Livewire", slug: livewire, hex: "4E56A6", logo_color: white, category: framework}
+  - {id: lodash, name: "Lodash", slug: lodash, hex: "3492FF", logo_color: white, category: framework}
+  - {id: lumen, name: "Lumen", slug: lumen, hex: "E74430", logo_color: white, category: framework}
+  - {id: mapbox, name: "Mapbox", slug: mapbox, hex: "000000", logo_color: white, category: framework}
+  - {id: mobx, name: "MobX", slug: mobx, hex: "FF9955", logo_color: black, category: framework}
+  - {id: moleculer, name: "Moleculer", slug: moleculer, hex: "3CAFCE", logo_color: white, category: framework}
+  - {id: mongoose, name: "Mongoose", slug: mongoose, hex: "880000", logo_color: white, category: framework}
+  - {id: ngrx, name: "NgRx", slug: ngrx, hex: "BA2BD2", logo_color: white, category: framework}
+  - {id: p5dotjs, name: "p5.js", slug: p5dotjs, hex: "ED225D", logo_color: white, category: framework}
+  - {id: passport, name: "Passport", slug: passport, hex: "34E27A", logo_color: black, category: framework}
+  - {id: payloadcms, name: "Payload CMS", slug: payloadcms, hex: "000000", logo_color: white, category: framework}
+  - {id: phoenixframework, name: "Phoenix Framework", slug: phoenixframework, hex: "FD4F00", logo_color: white, category: framework}
+  - {id: plotly, name: "Plotly", slug: plotly, hex: "7A76FF", logo_color: white, category: framework}
+  - {id: primeng, name: "PrimeNG", slug: primeng, hex: "DD0031", logo_color: white, category: framework}
+  - {id: processwire, name: "ProcessWire", slug: processwire, hex: "2480E6", logo_color: white, category: framework}
+  - {id: pug, name: "Pug", slug: pug, hex: "A86454", logo_color: white, category: framework}
+  - {id: quarkus, name: "Quarkus", slug: quarkus, hex: "4695EB", logo_color: white, category: framework}
+  - {id: quasar, name: "Quasar", slug: quasar, hex: "050A14", logo_color: white, category: framework}
+  - {id: reactbootstrap, name: "React Bootstrap", slug: reactbootstrap, hex: "41E0FD", logo_color: black, category: framework}
+  - {id: reflex, name: "Reflex", slug: reflex, hex: "6E56CF", logo_color: white, category: framework}
+  - {id: socketdotio, name: "Socket.io", slug: socketdotio, hex: "010101", logo_color: white, category: framework}
+  - {id: stencil, name: "Stencil", slug: stencil, hex: "5530FF", logo_color: white, category: framework}
+  - {id: stimulus, name: "Stimulus", slug: stimulus, hex: "77E8B9", logo_color: black, category: framework}
+  - {id: swiper, name: "Swiper", slug: swiper, hex: "6332F6", logo_color: white, category: framework}
+  - {id: thymeleaf, name: "Thymeleaf", slug: thymeleaf, hex: "005F0F", logo_color: white, category: framework}
+  - {id: trpc, name: "tRPC", slug: trpc, hex: "2596BE", logo_color: white, category: framework}
+  - {id: turbo, name: "Turbo", slug: turbo, hex: "5CD8E5", logo_color: black, category: framework}
+  - {id: typo3, name: "TYPO3", slug: typo3, hex: "FF8700", logo_color: white, category: framework}
+  - {id: vaadin, name: "Vaadin", slug: vaadin, hex: "00B4F0", logo_color: white, category: framework}
+  - {id: vapor, name: "Vapor", slug: vapor, hex: "0D0D0D", logo_color: white, category: framework}
+  - {id: web3dotjs, name: "Web3.js", slug: web3dotjs, hex: "F16822", logo_color: white, category: framework}
+  - {id: yii, name: "Yii", slug: yii, hex: "40B3D8", logo_color: white, category: framework}
+  - {id: zend, name: "Zend", slug: zend, hex: "0679EA", logo_color: white, category: framework}
+  # Build Tool & Linter
+  - {id: apachemaven, name: "Apache Maven", slug: apachemaven, hex: "C71A36", logo_color: white, category: build-tool}
+  - {id: bazel, name: "Bazel", slug: bazel, hex: "43A047", logo_color: white, category: build-tool}
+  - {id: biome, name: "Biome", slug: biome, hex: "60A5FA", logo_color: white, category: build-tool}
+  - {id: bower, name: "Bower", slug: bower, hex: "EF5734", logo_color: white, category: build-tool}
+  - {id: cmake, name: "CMake", slug: cmake, hex: "064F8C", logo_color: white, category: build-tool}
+  - {id: eslint, name: "ESLint", slug: eslint, hex: "4B32C3", logo_color: white, category: build-tool}
+  - {id: gradle, name: "Gradle", slug: gradle, hex: "02303A", logo_color: white, category: build-tool}
+  - {id: grunt, name: "Grunt", slug: grunt, hex: "FAA918", logo_color: black, category: build-tool}
+  - {id: gulp, name: "gulp", slug: gulp, hex: "CF4647", logo_color: white, category: build-tool}
+  - {id: poetry, name: "Poetry", slug: poetry, hex: "60A5FA", logo_color: white, category: build-tool}
+  - {id: postcss, name: "PostCSS", slug: postcss, hex: "DD3A0A", logo_color: white, category: build-tool}
+  - {id: rollupdotjs, name: "rollup.js", slug: rollupdotjs, hex: "EC4A3F", logo_color: white, category: build-tool}
+  - {id: svgo, name: "SVGO", slug: svgo, hex: "3E7FC1", logo_color: white, category: build-tool}
+  - {id: webpack, name: "Webpack", slug: webpack, hex: "8DD6F9", logo_color: black, category: build-tool}
+  # Programming Language & Runtime
+  - {id: apachegroovy, name: "Apache Groovy", slug: apachegroovy, hex: "4298B8", logo_color: white, category: language}
+  - {id: delphi, name: "Delphi", slug: delphi, hex: "E62431", logo_color: white, category: language}
+  - {id: llvm, name: "LLVM", slug: llvm, hex: "262D3A", logo_color: white, category: language}
+  - {id: luau, name: "Luau", slug: luau, hex: "00A2FF", logo_color: white, category: language}
+  - {id: purescript, name: "PureScript", slug: purescript, hex: "14161A", logo_color: white, category: language}
+  - {id: racket, name: "Racket", slug: racket, hex: "9F1D20", logo_color: white, category: language}
+  - {id: uml, name: "UML", slug: uml, hex: "FABD14", logo_color: black, category: language}
+  - {id: v8, name: "V8", slug: v8, hex: "4B8BF5", logo_color: white, category: language}
+  - {id: vala, name: "Vala", slug: vala, hex: "7239B3", logo_color: white, category: language}
+  - {id: webgpu, name: "WebGPU", slug: webgpu, hex: "005A9C", logo_color: white, category: language}
+  - {id: wolfram, name: "Wolfram", slug: wolfram, hex: "DD1100", logo_color: white, category: language}
+  # Database & Messaging
+  - {id: apachehadoop, name: "Apache Hadoop", slug: apachehadoop, hex: "66CCFF", logo_color: black, category: database}
+  - {id: apachekafka, name: "Apache Kafka", slug: apachekafka, hex: "231F20", logo_color: white, category: database}
+  - {id: beats, name: "Beats", slug: beats, hex: "005571", logo_color: white, category: database}
+  - {id: clickhouse, name: "ClickHouse", slug: clickhouse, hex: "FFCC01", logo_color: black, category: database}
+  - {id: duckdb, name: "DuckDB", slug: duckdb, hex: "FFF000", logo_color: black, category: database}
+  - {id: elasticsearch, name: "Elasticsearch", slug: elasticsearch, hex: "005571", logo_color: white, category: database}
+  - {id: flyway, name: "Flyway", slug: flyway, hex: "CC0200", logo_color: white, category: database}
+  - {id: liquibase, name: "Liquibase", slug: liquibase, hex: "2962FF", logo_color: white, category: database}
+  - {id: logstash, name: "Logstash", slug: logstash, hex: "005571", logo_color: white, category: database}
+  - {id: metabase, name: "Metabase", slug: metabase, hex: "509EE3", logo_color: white, category: database}
+  - {id: natsdotio, name: "NATS.io", slug: natsdotio, hex: "27AAE1", logo_color: white, category: database}
+  - {id: rabbitmq, name: "RabbitMQ", slug: rabbitmq, hex: "FF6600", logo_color: white, category: database}
+  - {id: rocksdb, name: "RocksDB", slug: rocksdb, hex: "2A2A2A", logo_color: white, category: database}
+  - {id: sqlalchemy, name: "SQLAlchemy", slug: sqlalchemy, hex: "D71F00", logo_color: white, category: database}
+  - {id: surrealdb, name: "SurrealDB", slug: surrealdb, hex: "FF00A0", logo_color: white, category: database}
+  - {id: vitess, name: "Vitess", slug: vitess, hex: "F16728", logo_color: white, category: database}
+  # DevOps & Infrastructure
+  - {id: ansible, name: "Ansible", slug: ansible, hex: "EE0000", logo_color: white, category: devops}
+  - {id: apachetomcat, name: "Apache Tomcat", slug: apachetomcat, hex: "F8DC75", logo_color: black, category: devops}
+  - {id: aspire, name: "Aspire", slug: aspire, hex: "7455DD", logo_color: white, category: devops}
+  - {id: ceph, name: "Ceph", slug: ceph, hex: "EF5C55", logo_color: white, category: devops}
+  - {id: consul, name: "Consul", slug: consul, hex: "F24C53", logo_color: white, category: devops}
+  - {id: cpanel, name: "cPanel", slug: cpanel, hex: "FF6C2C", logo_color: white, category: devops}
+  - {id: dynatrace, name: "Dynatrace", slug: dynatrace, hex: "1496FF", logo_color: white, category: devops}
+  - {id: envoyproxy, name: "Envoy Proxy", slug: envoyproxy, hex: "AC6199", logo_color: white, category: devops}
+  - {id: haproxy, name: "HAProxy", slug: haproxy, hex: "169BD6", logo_color: white, category: devops}
+  - {id: harbor, name: "Harbor", slug: harbor, hex: "60B932", logo_color: white, category: devops}
+  - {id: icinga, name: "Icinga", slug: icinga, hex: "06062C", logo_color: white, category: devops}
+  - {id: istio, name: "Istio", slug: istio, hex: "466BB0", logo_color: white, category: devops}
+  - {id: jaeger, name: "Jaeger", slug: jaeger, hex: "66CFE3", logo_color: black, category: devops}
+  - {id: k3s, name: "K3s", slug: k3s, hex: "FFC61C", logo_color: black, category: devops}
+  - {id: newrelic, name: "New Relic", slug: newrelic, hex: "1CE783", logo_color: white, category: devops}
+  - {id: ngrok, name: "ngrok", slug: ngrok, hex: "1F1E37", logo_color: white, category: devops}
+  - {id: nomad, name: "Nomad", slug: nomad, hex: "00CA8E", logo_color: white, category: devops}
+  - {id: openstack, name: "OpenStack", slug: openstack, hex: "ED1944", logo_color: white, category: devops}
+  - {id: packer, name: "Packer", slug: packer, hex: "02A8EF", logo_color: white, category: devops}
+  - {id: podman, name: "Podman", slug: podman, hex: "892CA0", logo_color: white, category: devops}
+  - {id: proxmox, name: "Proxmox", slug: proxmox, hex: "E57000", logo_color: white, category: devops}
+  - {id: pulumi, name: "Pulumi", slug: pulumi, hex: "8A3391", logo_color: white, category: devops}
+  - {id: rancher, name: "Rancher", slug: rancher, hex: "0075A8", logo_color: white, category: devops}
+  - {id: talos, name: "Talos", slug: talos, hex: "FF7300", logo_color: white, category: devops}
+  - {id: traefikmesh, name: "Traefik Mesh", slug: traefikmesh, hex: "9D0FB0", logo_color: white, category: devops}
+  - {id: traefikproxy, name: "Traefik Proxy", slug: traefikproxy, hex: "24A1C1", logo_color: white, category: devops}
+  - {id: vagrant, name: "Vagrant", slug: vagrant, hex: "1868F2", logo_color: white, category: devops}
+  - {id: vault, name: "Vault", slug: vault, hex: "FFEC6E", logo_color: black, category: devops}
+  # Operating System & Network
+  - {id: dovecot, name: "Dovecot", slug: dovecot, hex: "54BCAB", logo_color: white, category: os-network}
+  - {id: kdeneon, name: "KDE neon", slug: kdeneon, hex: "3DC08D", logo_color: white, category: os-network}
+  - {id: opensuse, name: "openSUSE", slug: opensuse, hex: "73BA25", logo_color: white, category: os-network}
+  - {id: opnsense, name: "OPNsense", slug: opnsense, hex: "E44A20", logo_color: white, category: os-network}
+  - {id: pfsense, name: "pfSense", slug: pfsense, hex: "212121", logo_color: white, category: os-network}
+  - {id: redhat, name: "Red Hat", slug: redhat, hex: "EE0000", logo_color: white, category: os-network}
+  - {id: wireguard, name: "WireGuard", slug: wireguard, hex: "88171A", logo_color: white, category: os-network}
+  - {id: yunohost, name: "YunoHost", slug: yunohost, hex: "000000", logo_color: white, category: os-network}
+  # Code Editor & Developer Tool
+  - {id: burpsuite, name: "Burp Suite", slug: burpsuite, hex: "FF6633", logo_color: white, category: editor-tools}
+  - {id: claudecode, name: "Claude Code", slug: claudecode, hex: "D97757", logo_color: white, category: editor-tools}
+  - {id: clion, name: "CLion", slug: clion, hex: "000000", logo_color: white, category: editor-tools}
+  - {id: datagrip, name: "DataGrip", slug: datagrip, hex: "000000", logo_color: white, category: editor-tools}
+  - {id: dbeaver, name: "DBeaver", slug: dbeaver, hex: "382923", logo_color: white, category: editor-tools}
+  - {id: filezilla, name: "FileZilla", slug: filezilla, hex: "BF0000", logo_color: white, category: editor-tools}
+  - {id: forgejo, name: "Forgejo", slug: forgejo, hex: "FB923C", logo_color: black, category: editor-tools}
+  - {id: gitkraken, name: "GitKraken", slug: gitkraken, hex: "179287", logo_color: white, category: editor-tools}
+  - {id: gitter, name: "Gitter", slug: gitter, hex: "ED1965", logo_color: white, category: editor-tools}
+  - {id: glitch, name: "Glitch", slug: glitch, hex: "3333FF", logo_color: white, category: editor-tools}
+  - {id: goland, name: "GoLand", slug: goland, hex: "000000", logo_color: white, category: editor-tools}
+  - {id: hoppscotch, name: "Hoppscotch", slug: hoppscotch, hex: "09090B", logo_color: white, category: editor-tools}
+  - {id: jetbrains, name: "JetBrains", slug: jetbrains, hex: "000000", logo_color: white, category: editor-tools}
+  - {id: radstudio, name: "RAD Studio", slug: radstudio, hex: "E62431", logo_color: white, category: editor-tools}
+  - {id: rstudioide, name: "RStudio IDE", slug: rstudioide, hex: "75AADB", logo_color: white, category: editor-tools}
+  - {id: rubymine, name: "RubyMine", slug: rubymine, hex: "000000", logo_color: white, category: editor-tools}
+  - {id: sketch, name: "Sketch", slug: sketch, hex: "F7B500", logo_color: black, category: editor-tools}
+  - {id: sourcetree, name: "Sourcetree", slug: sourcetree, hex: "0052CC", logo_color: white, category: editor-tools}
+  - {id: spyderide, name: "Spyder IDE", slug: spyderide, hex: "8C0000", logo_color: white, category: editor-tools}
+  - {id: stackblitz, name: "StackBlitz", slug: stackblitz, hex: "1269D3", logo_color: white, category: editor-tools}
+  - {id: tower, name: "Tower", slug: tower, hex: "00CAF4", logo_color: white, category: editor-tools}
+  # Terminal
+  - {id: fishshell, name: "fish shell", slug: fishshell, hex: "34C534", logo_color: white, category: terminal}
+  - {id: nano, name: "Nano", slug: nano, hex: "209CE9", logo_color: white, category: terminal}
+  - {id: starship, name: "Starship", slug: starship, hex: "DD0B78", logo_color: white, category: terminal}
+  # CI
+  - {id: teamcity, name: "TeamCity", slug: teamcity, hex: "000000", logo_color: white, category: ci}
+  # Testing
+  - {id: cucumber, name: "Cucumber", slug: cucumber, hex: "23D96C", logo_color: white, category: testing}
+  - {id: gatling, name: "Gatling", slug: gatling, hex: "FF9E2A", logo_color: black, category: testing}
+  - {id: protractor, name: "Protractor", slug: protractor, hex: "ED163A", logo_color: white, category: testing}
+  - {id: puppeteer, name: "Puppeteer", slug: puppeteer, hex: "40B5A4", logo_color: white, category: testing}
+  - {id: testrail, name: "TestRail", slug: testrail, hex: "65C179", logo_color: white, category: testing}
+  # Platform, CMS & Service
+  - {id: algolia, name: "Algolia", slug: algolia, hex: "003DFF", logo_color: white, category: platform}
+  - {id: appwrite, name: "Appwrite", slug: appwrite, hex: "FD366E", logo_color: white, category: platform}
+  - {id: googleappsscript, name: "Google Apps Script", slug: googleappsscript, hex: "4285F4", logo_color: white, category: platform}
+  - {id: ifttt, name: "IFTTT", slug: ifttt, hex: "000000", logo_color: white, category: platform}
+  - {id: jamstack, name: "Jamstack", slug: jamstack, hex: "F0047F", logo_color: white, category: platform}
+  - {id: mattermost, name: "Mattermost", slug: mattermost, hex: "0058CC", logo_color: white, category: platform}
+  - {id: modx, name: "MODX", slug: modx, hex: "102C53", logo_color: white, category: platform}
+  - {id: moodle, name: "Moodle", slug: moodle, hex: "F98012", logo_color: white, category: platform}
+  - {id: n8n, name: "n8n", slug: n8n, hex: "FF91AC", logo_color: black, category: platform}
+  - {id: nodered, name: "Node-RED", slug: nodered, hex: "8F0000", logo_color: white, category: platform}
+  - {id: okta, name: "Okta", slug: okta, hex: "007DC1", logo_color: white, category: platform}
+  - {id: ory, name: "Ory", slug: ory, hex: "4F46E5", logo_color: white, category: platform}
+  - {id: prestashop, name: "PrestaShop", slug: prestashop, hex: "DF0067", logo_color: white, category: platform}
+  - {id: sanity, name: "Sanity", slug: sanity, hex: "0D0E12", logo_color: white, category: platform}
+  - {id: shopware, name: "Shopware", slug: shopware, hex: "189EFF", logo_color: white, category: platform}
+  - {id: webflow, name: "Webflow", slug: webflow, hex: "146EF5", logo_color: white, category: platform}
+  - {id: weblate, name: "Weblate", slug: weblate, hex: "2ECCAA", logo_color: white, category: platform}
+  # Other
+  - {id: ansys, name: "Ansys", slug: ansys, hex: "FFB71B", logo_color: black, category: other}
+  - {id: autodeskmaya, name: "Autodesk Maya", slug: autodeskmaya, hex: "37A5CC", logo_color: white, category: other}
+  - {id: bevy, name: "Bevy", slug: bevy, hex: "232326", logo_color: white, category: other}
+  - {id: cairographics, name: "Cairo Graphics", slug: cairographics, hex: "F39914", logo_color: black, category: other}
+  - {id: labview, name: "LabVIEW", slug: labview, hex: "FFDB00", logo_color: black, category: other}
+  - {id: monogame, name: "MonoGame", slug: monogame, hex: "E73C00", logo_color: white, category: other}
+  - {id: photon, name: "Photon", slug: photon, hex: "004480", logo_color: white, category: other}
+  - {id: polygon, name: "Polygon", slug: polygon, hex: "7B3FE4", logo_color: white, category: other}
+  - {id: qiskit, name: "Qiskit", slug: qiskit, hex: "6929C4", logo_color: white, category: other}
+  - {id: sfml, name: "SFML", slug: sfml, hex: "8CC445", logo_color: black, category: other}
+  - {id: sourceengine, name: "Source Engine", slug: sourceengine, hex: "F79A10", logo_color: black, category: other}
+  - {id: thealgorithms, name: "The Algorithms", slug: thealgorithms, hex: "00BCB4", logo_color: white, category: other}
+
+  # ---- Custom logos (devicon, MIT). Color is baked into the SVG; see assets/logos/README.md ----
+  # Framework & Library
+  - {id: akka, name: "Akka", slug: akka, hex: "15A9CE", logo_color: white, category: framework, source: custom, logo_file: assets/logos/akka.svg}
+  - {id: appcelerator, name: "Appcelerator", slug: appcelerator, hex: "AC162C", logo_color: white, category: framework, source: custom, logo_file: assets/logos/appcelerator.svg}
+  - {id: datatables, name: "DataTables", slug: datatables, hex: "FFFFFF", logo_color: black, category: framework, source: custom, logo_file: assets/logos/datatables.svg}
+  - {id: dropwizard, name: "Dropwizard", slug: dropwizard, hex: "24265D", logo_color: white, category: framework, source: custom, logo_file: assets/logos/dropwizard.svg}
+  - {id: emailjs, name: "EmailJS", slug: emailjs, hex: "FF8434", logo_color: white, category: framework, source: custom, logo_file: assets/logos/emailjs.svg}
+  - {id: feathersjs, name: "Feathers", slug: feathersjs, hex: "333333", logo_color: white, category: framework, source: custom, logo_file: assets/logos/feathersjs.svg}
+  - {id: fiber, name: "Fiber", slug: fiber, hex: "00ACD7", logo_color: white, category: framework, source: custom, logo_file: assets/logos/fiber.svg}
+  - {id: foundation, name: "Foundation", slug: foundation, hex: "008CBA", logo_color: white, category: framework, source: custom, logo_file: assets/logos/foundation.svg}
+  - {id: hardhat, name: "Hardhat", slug: hardhat, hex: "FFF100", logo_color: black, category: framework, source: custom, logo_file: assets/logos/hardhat.svg}
+  - {id: jeet, name: "Jeet", slug: jeet, hex: "FF664A", logo_color: white, category: framework, source: custom, logo_file: assets/logos/jeet.svg}
+  - {id: laminas, name: "Laminas", slug: laminas, hex: "013755", logo_color: white, category: framework, source: custom, logo_file: assets/logos/laminas.svg}
+  - {id: libgdx, name: "libGDX", slug: libgdx, hex: "E74A45", logo_color: white, category: framework, source: custom, logo_file: assets/logos/libgdx.svg}
+  - {id: love2d, name: "LÖVE", slug: love2d, hex: "FFFFFF", logo_color: black, category: framework, source: custom, logo_file: assets/logos/love2d.svg}
+  - {id: materializecss, name: "Materialize", slug: materializecss, hex: "EB7077", logo_color: white, category: framework, source: custom, logo_file: assets/logos/materializecss.svg}
+  - {id: mithril, name: "Mithril", slug: mithril, hex: "010002", logo_color: white, category: framework, source: custom, logo_file: assets/logos/mithril.svg}
+  - {id: nodewebkit, name: "NW.js", slug: nodewebkit, hex: "3D3B47", logo_color: white, category: framework, source: custom, logo_file: assets/logos/nodewebkit.svg}
+  - {id: phalcon, name: "Phalcon", slug: phalcon, hex: "76C39B", logo_color: black, category: framework, source: custom, logo_file: assets/logos/phalcon.svg}
+  - {id: pixijs, name: "PixiJS", slug: pixijs, hex: "E72264", logo_color: white, category: framework, source: custom, logo_file: assets/logos/pixijs.svg}
+  - {id: rxjs, name: "RxJS", slug: rxjs, hex: "DF1C85", logo_color: white, category: framework, source: custom, logo_file: assets/logos/rxjs.svg}
+  - {id: veevalidate, name: "VeeValidate", slug: veevalidate, hex: "04C971", logo_color: white, category: framework, source: custom, logo_file: assets/logos/veevalidate.svg}
+  - {id: wasp, name: "Wasp", slug: wasp, hex: "000000", logo_color: white, category: framework, source: custom, logo_file: assets/logos/wasp.svg}
+  - {id: web2py, name: "web2py", slug: web2py, hex: "EEF6F3", logo_color: black, category: framework, source: custom, logo_file: assets/logos/web2py.svg}
+  - {id: xamarin, name: "Xamarin", slug: xamarin, hex: "3498DB", logo_color: white, category: framework, source: custom, logo_file: assets/logos/xamarin.svg}
+  # Build Tool & Linter
+  - {id: cake, name: "Cake", slug: cake, hex: "4A1700", logo_color: white, category: build-tool, source: custom, logo_file: assets/logos/cake.svg}
+  - {id: msbuild, name: "MSBuild", slug: msbuild, hex: "5B35DE", logo_color: white, category: build-tool, source: custom, logo_file: assets/logos/msbuild.svg}
+  - {id: nimble, name: "Nimble", slug: nimble, hex: "F7E941", logo_color: black, category: build-tool, source: custom, logo_file: assets/logos/nimble.svg}
+  - {id: spack, name: "Spack", slug: spack, hex: "0F3A80", logo_color: white, category: build-tool, source: custom, logo_file: assets/logos/spack.svg}
+  # Programming Language & Runtime
+  - {id: apex, name: "Apex", slug: apex, hex: "0D9DDA", logo_color: white, category: language, source: custom, logo_file: assets/logos/apex.svg}
+  - {id: ballerina, name: "Ballerina", slug: ballerina, hex: "46C0BC", logo_color: white, category: language, source: custom, logo_file: assets/logos/ballerina.svg}
+  - {id: carbon, name: "Carbon", slug: carbon, hex: "000000", logo_color: white, category: language, source: custom, logo_file: assets/logos/carbon.svg}
+  - {id: ceylon, name: "Ceylon", slug: ceylon, hex: "AB710A", logo_color: white, category: language, source: custom, logo_file: assets/logos/ceylon.svg}
+  - {id: clarity, name: "Clarity", slug: clarity, hex: "13171A", logo_color: white, category: language, source: custom, logo_file: assets/logos/clarity.svg}
+  - {id: cobol, name: "COBOL", slug: cobol, hex: "000000", logo_color: white, category: language, source: custom, logo_file: assets/logos/cobol.svg}
+  - {id: dyalog, name: "Dyalog APL", slug: dyalog, hex: "FF6A13", logo_color: white, category: language, source: custom, logo_file: assets/logos/dyalog.svg}
+  - {id: embeddedc, name: "Embedded C", slug: embeddedc, hex: "444444", logo_color: white, category: language, source: custom, logo_file: assets/logos/embeddedc.svg}
+  - {id: idris, name: "Idris", slug: idris, hex: "8A0819", logo_color: white, category: language, source: custom, logo_file: assets/logos/idris.svg}
+  - {id: jule, name: "Jule", slug: jule, hex: "5F7389", logo_color: white, category: language, source: custom, logo_file: assets/logos/jule.svg}
+  - {id: nasm, name: "NASM", slug: nasm, hex: "113B6A", logo_color: white, category: language, source: custom, logo_file: assets/logos/nasm.svg}
+  - {id: processing, name: "Processing", slug: processing, hex: "1F34AB", logo_color: white, category: language, source: custom, logo_file: assets/logos/processing.svg}
+  - {id: prolog, name: "Prolog", slug: prolog, hex: "F46C30", logo_color: white, category: language, source: custom, logo_file: assets/logos/prolog.svg}
+  - {id: reach, name: "Reach", slug: reach, hex: "6AC6E7", logo_color: black, category: language, source: custom, logo_file: assets/logos/reach.svg}
+  - {id: rect, name: "Rect", slug: rect, hex: "262626", logo_color: white, category: language, source: custom, logo_file: assets/logos/rect.svg}
+  - {id: rexx, name: "REXX", slug: rexx, hex: "D81511", logo_color: white, category: language, source: custom, logo_file: assets/logos/rexx.svg}
+  - {id: systemverilog, name: "SystemVerilog", slug: systemverilog, hex: "248F4F", logo_color: white, category: language, source: custom, logo_file: assets/logos/systemverilog.svg}
+  - {id: tex, name: "TeX", slug: tex, hex: "000000", logo_color: white, category: language, source: custom, logo_file: assets/logos/tex.svg}
+  - {id: verilog, name: "Verilog", slug: verilog, hex: "248F4F", logo_color: white, category: language, source: custom, logo_file: assets/logos/verilog.svg}
+  - {id: visualbasic, name: "Visual Basic", slug: visualbasic, hex: "004E8C", logo_color: white, category: language, source: custom, logo_file: assets/logos/visualbasic.svg}
+  - {id: vyper, name: "Vyper", slug: vyper, hex: "9F4CF2", logo_color: white, category: language, source: custom, logo_file: assets/logos/vyper.svg}
+  # Database & Messaging
+  - {id: aerospike, name: "Aerospike", slug: aerospike, hex: "C21417", logo_color: white, category: database, source: custom, logo_file: assets/logos/aerospike.svg}
+  - {id: dynamodb, name: "Amazon DynamoDB", slug: dynamodb, hex: "527FFF", logo_color: white, category: database, source: custom, logo_file: assets/logos/dynamodb.svg}
+  - {id: apacheignite, name: "Apache Ignite", slug: apacheignite, hex: "ED1C24", logo_color: white, category: database, source: custom, logo_file: assets/logos/apacheignite.svg}
+  - {id: cosmosdb, name: "Azure Cosmos DB", slug: cosmosdb, hex: "59B3D8", logo_color: white, category: database, source: custom, logo_file: assets/logos/cosmosdb.svg}
+  - {id: azuresqldatabase, name: "Azure SQL Database", slug: azuresqldatabase, hex: "005BA1", logo_color: white, category: database, source: custom, logo_file: assets/logos/azuresqldatabase.svg}
+  - {id: ecto, name: "Ecto", slug: ecto, hex: "77BF43", logo_color: white, category: database, source: custom, logo_file: assets/logos/ecto.svg}
+  - {id: entityframeworkcore, name: "Entity Framework Core", slug: entityframeworkcore, hex: "512BD4", logo_color: white, category: database, source: custom, logo_file: assets/logos/entityframeworkcore.svg}
+  - {id: firebird, name: "Firebird", slug: firebird, hex: "F4790E", logo_color: white, category: database, source: custom, logo_file: assets/logos/firebird.svg}
+  - {id: memcached, name: "Memcached", slug: memcached, hex: "2A9790", logo_color: white, category: database, source: custom, logo_file: assets/logos/memcached.svg}
+  - {id: nhibernate, name: "NHibernate", slug: nhibernate, hex: "903A36", logo_color: white, category: database, source: custom, logo_file: assets/logos/nhibernate.svg}
+  - {id: ravendb, name: "RavenDB", slug: ravendb, hex: "388EE9", logo_color: white, category: database, source: custom, logo_file: assets/logos/ravendb.svg}
+  - {id: realm, name: "Realm", slug: realm, hex: "6E60F9", logo_color: white, category: database, source: custom, logo_file: assets/logos/realm.svg}
+  - {id: tigerbeetle, name: "TigerBeetle", slug: tigerbeetle, hex: "000000", logo_color: white, category: database, source: custom, logo_file: assets/logos/tigerbeetle.svg}
+  - {id: yugabytedb, name: "YugabyteDB", slug: yugabytedb, hex: "FF5F3B", logo_color: white, category: database, source: custom, logo_file: assets/logos/yugabytedb.svg}
+  # DevOps & Infrastructure
+  - {id: gardener, name: "Gardener", slug: gardener, hex: "009F76", logo_color: white, category: devops, source: custom, logo_file: assets/logos/gardener.svg}
+  - {id: grafanaloki, name: "Grafana Loki", slug: grafanaloki, hex: "F7A900", logo_color: black, category: devops, source: custom, logo_file: assets/logos/grafanaloki.svg}
+  - {id: harvester, name: "Harvester", slug: harvester, hex: "00A580", logo_color: white, category: devops, source: custom, logo_file: assets/logos/harvester.svg}
+  - {id: k3os, name: "k3OS", slug: k3os, hex: "FD824E", logo_color: black, category: devops, source: custom, logo_file: assets/logos/k3os.svg}
+  - {id: netbox, name: "NetBox", slug: netbox, hex: "00857D", logo_color: white, category: devops, source: custom, logo_file: assets/logos/netbox.svg}
+  - {id: teleport, name: "Teleport", slug: teleport, hex: "512FC9", logo_color: white, category: devops, source: custom, logo_file: assets/logos/teleport.svg}
+  - {id: tenzir, name: "Tenzir", slug: tenzir, hex: "0E1017", logo_color: white, category: devops, source: custom, logo_file: assets/logos/tenzir.svg}
+  - {id: terramate, name: "Terramate", slug: terramate, hex: "FFFFFF", logo_color: black, category: devops, source: custom, logo_file: assets/logos/terramate.svg}
+  - {id: uwsgi, name: "uWSGI", slug: uwsgi, hex: "BAD05E", logo_color: black, category: devops, source: custom, logo_file: assets/logos/uwsgi.svg}
+  # Operating System & Network
+  - {id: msdos, name: "MS-DOS", slug: msdos, hex: "000000", logo_color: white, category: os-network, source: custom, logo_file: assets/logos/msdos.svg}
+  - {id: putty, name: "PuTTY", slug: putty, hex: "0000FC", logo_color: white, category: os-network, source: custom, logo_file: assets/logos/putty.svg}
+  - {id: ssh, name: "SSH", slug: ssh, hex: "231F20", logo_color: white, category: os-network, source: custom, logo_file: assets/logos/ssh.svg}
+  - {id: unix, name: "Unix", slug: unix, hex: "4051B5", logo_color: white, category: os-network, source: custom, logo_file: assets/logos/unix.svg}
+  # Code Editor & Developer Tool
+  - {id: githubcodespaces, name: "GitHub Codespaces", slug: githubcodespaces, hex: "24292E", logo_color: white, category: editor-tools, source: custom, logo_file: assets/logos/githubcodespaces.svg}
+  - {id: dataspell, name: "JetBrains DataSpell", slug: dataspell, hex: "087CFA", logo_color: white, category: editor-tools, source: custom, logo_file: assets/logos/dataspell.svg}
+  - {id: sqldeveloper, name: "Oracle SQL Developer", slug: sqldeveloper, hex: "ADADAD", logo_color: black, category: editor-tools, source: custom, logo_file: assets/logos/sqldeveloper.svg}
+  - {id: positron, name: "Positron", slug: positron, hex: "3A78B1", logo_color: white, category: editor-tools, source: custom, logo_file: assets/logos/positron.svg}
+  # Testing
+  - {id: browserstack, name: "BrowserStack", slug: browserstack, hex: "0070F0", logo_color: white, category: testing, source: custom, logo_file: assets/logos/browserstack.svg}
+  - {id: codeac, name: "Codeac", slug: codeac, hex: "005096", logo_color: white, category: testing, source: custom, logo_file: assets/logos/codeac.svg}
+  - {id: karma, name: "Karma", slug: karma, hex: "56C5A8", logo_color: black, category: testing, source: custom, logo_file: assets/logos/karma.svg}
+  - {id: qodana, name: "Qodana", slug: qodana, hex: "FF318C", logo_color: white, category: testing, source: custom, logo_file: assets/logos/qodana.svg}
+  - {id: qtest, name: "qTest", slug: qtest, hex: "1A62B3", logo_color: white, category: testing, source: custom, logo_file: assets/logos/qtest.svg}
+  - {id: rspec, name: "RSpec", slug: rspec, hex: "6DE1FA", logo_color: black, category: testing, source: custom, logo_file: assets/logos/rspec.svg}
+  # Platform, CMS & Service
+  - {id: apify, name: "Apify", slug: apify, hex: "246DFF", logo_color: white, category: platform, source: custom, logo_file: assets/logos/apify.svg}
+  - {id: jwt, name: "JWT", slug: jwt, hex: "FFFFFF", logo_color: black, category: platform, source: custom, logo_file: assets/logos/jwt.svg}
+  - {id: magento, name: "Magento", slug: magento, hex: "F26322", logo_color: white, category: platform, source: custom, logo_file: assets/logos/magento.svg}
+  - {id: spicedb, name: "SpiceDB", slug: spicedb, hex: "FB5B62", logo_color: white, category: platform, source: custom, logo_file: assets/logos/spicedb.svg}
+  - {id: sulu, name: "Sulu", slug: sulu, hex: "112A46", logo_color: white, category: platform, source: custom, logo_file: assets/logos/sulu.svg}
+  - {id: twilio, name: "Twilio", slug: twilio, hex: "F22F46", logo_color: white, category: platform, source: custom, logo_file: assets/logos/twilio.svg}
+  - {id: youtrack, name: "YouTrack", slug: youtrack, hex: "000000", logo_color: white, category: platform, source: custom, logo_file: assets/logos/youtrack.svg}
+  # Design & Creative
+  - {id: aftereffects, name: "Adobe After Effects", slug: aftereffects, hex: "1F0740", logo_color: white, category: design, source: custom, logo_file: assets/logos/aftereffects.svg}
+  - {id: dreamweaver, name: "Adobe Dreamweaver", slug: dreamweaver, hex: "470137", logo_color: white, category: design, source: custom, logo_file: assets/logos/dreamweaver.svg}
+  - {id: illustrator, name: "Adobe Illustrator", slug: illustrator, hex: "330000", logo_color: white, category: design, source: custom, logo_file: assets/logos/illustrator.svg}
+  - {id: photoshop, name: "Adobe Photoshop", slug: photoshop, hex: "001E36", logo_color: white, category: design, source: custom, logo_file: assets/logos/photoshop.svg}
+  - {id: premierepro, name: "Adobe Premiere Pro", slug: premierepro, hex: "2A0634", logo_color: white, category: design, source: custom, logo_file: assets/logos/premierepro.svg}
+  - {id: xd, name: "Adobe XD", slug: xd, hex: "470137", logo_color: white, category: design, source: custom, logo_file: assets/logos/xd.svg}
+  - {id: threedsmax, name: "Autodesk 3ds Max", slug: threedsmax, hex: "37A5CC", logo_color: white, category: design, source: custom, logo_file: assets/logos/threedsmax.svg}
+  - {id: fusion, name: "Autodesk Fusion", slug: fusion, hex: "FF6A00", logo_color: white, category: design, source: custom, logo_file: assets/logos/fusion.svg}
+  - {id: shotgrid, name: "Autodesk ShotGrid", slug: shotgrid, hex: "000000", logo_color: white, category: design, source: custom, logo_file: assets/logos/shotgrid.svg}
+  # AI & Data Science
+  - {id: antigravity, name: "Google Antigravity", slug: antigravity, hex: "3581E5", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/antigravity.svg}
+  - {id: aiassistant, name: "JetBrains AI Assistant", slug: aiassistant, hex: "000000", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/aiassistant.svg}
+  - {id: junie, name: "JetBrains Junie", slug: junie, hex: "47E054", logo_color: black, category: ai-data, source: custom, logo_file: assets/logos/junie.svg}
+  - {id: kaldi, name: "Kaldi", slug: kaldi, hex: "8C6432", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/kaldi.svg}
+  - {id: kubeflow, name: "Kubeflow", slug: kubeflow, hex: "72A1E5", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/kubeflow.svg}
+  - {id: lovable, name: "Lovable", slug: lovable, hex: "000000", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/lovable.svg}
+  - {id: matlab, name: "MATLAB", slug: matlab, hex: "6DD0C7", logo_color: black, category: ai-data, source: custom, logo_file: assets/logos/matlab.svg}
+  - {id: minitab, name: "Minitab", slug: minitab, hex: "8DC63F", logo_color: black, category: ai-data, source: custom, logo_file: assets/logos/minitab.svg}
+  - {id: codex, name: "OpenAI Codex", slug: codex, hex: "5061F7", logo_color: white, category: ai-data, source: custom, logo_file: assets/logos/codex.svg}
+  # Cloud & Hosting
+  - {id: azuredatafactory, name: "Azure Data Factory", slug: azuredatafactory, hex: "095CA2", logo_color: white, category: cloud, source: custom, logo_file: assets/logos/azuredatafactory.svg}
+  - {id: discloud, name: "Discloud", slug: discloud, hex: "57F287", logo_color: black, category: cloud, source: custom, logo_file: assets/logos/discloud.svg}
+  - {id: cloudrun, name: "Google Cloud Run", slug: cloudrun, hex: "4285F4", logo_color: white, category: cloud, source: custom, logo_file: assets/logos/cloudrun.svg}
+  - {id: heroku, name: "Heroku", slug: heroku, hex: "6762A6", logo_color: white, category: cloud, source: custom, logo_file: assets/logos/heroku.svg}
+  - {id: scalingo, name: "Scalingo", slug: scalingo, hex: "173AEE", logo_color: white, category: cloud, source: custom, logo_file: assets/logos/scalingo.svg}
+  - {id: vsphere, name: "VMware vSphere", slug: vsphere, hex: "0091DA", logo_color: white, category: cloud, source: custom, logo_file: assets/logos/vsphere.svg}
+  # Other
+  - {id: gazebo, name: "Gazebo", slug: gazebo, hex: "F58113", logo_color: white, category: other, source: custom, logo_file: assets/logos/gazebo.svg}
+  - {id: gnuradio, name: "GNU Radio", slug: gnuradio, hex: "FF6905", logo_color: white, category: other, source: custom, logo_file: assets/logos/gnuradio.svg}
+  - {id: norg, name: "Norg", slug: norg, hex: "4878BE", logo_color: white, category: other, source: custom, logo_file: assets/logos/norg.svg}
+  - {id: novelwriter, name: "novelWriter", slug: novelwriter, hex: "346598", logo_color: white, category: other, source: custom, logo_file: assets/logos/novelwriter.svg}

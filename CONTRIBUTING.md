@@ -1,86 +1,93 @@
-# Contributing to tech-stack-icons
+# Contributing / Kontribusi
 
-Thanks for helping. New icons, fixes, docs and tooling are all welcome.
+**English** · [Bahasa Indonesia](#kontribusi-bahasa-indonesia)
 
-## Scope: what belongs here
+## Contributing (English)
 
-The goal is the most complete SVG icon library for technology. Any technology, tool, service, platform or brand that people show in a tech stack, portfolio, documentation or product belongs here.
+Thanks for helping! Most contributions are one line in `data/badges.yml`.
 
-| Category (`category` value) | Examples |
-| --- | --- |
-| `languages` | JavaScript, Python, Go, Rust |
-| `frameworks` | React, Next.js, Hono, Django |
-| `databases` | PostgreSQL, MongoDB, Redis |
-| `cloud` | AWS, Cloudflare, Vercel, Fly.io |
-| `devops` | GitHub Actions, Docker, Terraform |
-| `ai` | Claude, Hugging Face, Ollama |
-| `editors-terminals` | VS Code, Neovim, Ghostty |
-| `operating-systems` | Linux, Arch, FreeBSD |
-| `design` | Figma, Blender, Krita |
-| `data-analytics` | Excel, Power BI, Google Analytics, Microsoft Clarity |
-| `seo-webmaster` | Google Search Console, Bing Webmaster Tools, Ahrefs, Semrush |
-| `messaging` | WhatsApp, Telegram, Slack, Discord |
-| `email` | Gmail, Outlook, Proton Mail, Resend |
-| `productivity` | Word, PowerPoint, Notion, Obsidian |
-| `social-media` | GitHub, LinkedIn, YouTube, Reddit |
-| `finance` | PayPal, Stripe, Bitcoin, Visa |
-| `entertainment-gaming` | Steam, Spotify, Twitch |
-| `education` | Udemy, Coursera, freeCodeCamp |
-| `other` | Anything that fits none of the above |
+### Adding a badge
 
-New icons from Simple Icons or devicon that are already in the catalog should not be added twice. Pick a more specific category than `other` whenever one fits; recategorizing existing icons is a welcome contribution.
+1. Confirm the logo exists on [simpleicons.org](https://simpleicons.org) and note its **slug** and **hex**.
+2. Add one line under the right category comment in `data/badges.yml`:
 
-**Naming:** use the product's own name, and prefix with the vendor when the name is ambiguous. Example: `microsoft-clarity` (analytics) versus `clarity` (smart contract language).
+   ```yaml
+   - {id: apachekafka, name: "Apache Kafka", slug: apachekafka, hex: "231F20", logo_color: white, category: database}
+   ```
 
-## Add an icon
+3. `logo_color` is `white` on dark colors and `black` on light colors (check the preview).
+4. Regenerate and verify:
 
-1. Fork the repository and create a branch named `icon/{name}`.
-2. Create `icons/{name}/` where `{name}` is lowercase letters, digits and hyphens only (for example `nextjs`, `github-actions`).
-3. Add at least one SVG named `{name}-{variant}.svg`. Allowed variants:
-   `original`, `original-wordmark`, `original-wordmark-dark` (wordmark for dark backgrounds), `plain`, `plain-wordmark`, `line`, `line-wordmark`.
-4. Add an entry to `icons.json`, including a valid `category` (see the schema in `icons.schema.json`).
-5. Run `npm run validate` and fix anything it reports.
-6. Open a pull request and fill in the template.
+   ```bash
+   python -m venv .venv && source .venv/bin/activate
+   pip install -e ".[dev]"
+   badgekit build
+   badgekit check --simple-icons https://cdn.jsdelivr.net/npm/simple-icons/data/simple-icons.json
+   ruff check . && black --check . && pytest
+   ```
 
-## SVG rules
+5. Commit `data/badges.yml` together with the regenerated `README.md`, `README.id.md` and `docs/` files.
 
-- Must have a `viewBox`. Prefer a square one (`0 0 24 24` or `0 0 128 128`).
-- No `<script>`, event handlers (`onclick`, ...), external references or embedded raster images.
-- Optimized: no editor metadata, no hidden layers. Keep each file under 32 KB (hard limit 400 KB).
-- `plain` variants should use a single fill so they can be recolored.
-- Draw or source the artwork from files you have the right to use. Set `"source": "contributed"` for new icons, and keep third-party licenses in `NOTICE.md`.
+### Badge criteria
 
-## icons.json entry
+- The product is a real, widely used technology, tool or service.
+- `name` is the official product name; `hex` is the official brand color from Simple Icons.
+- No duplicates: `badgekit validate` rejects repeated ids, names and slugs.
+- Logos missing from Simple Icons can be added with `source: custom` and a single-color SVG under `assets/logos/` (see [`assets/logos/README.md`](assets/logos/README.md)). Shields.io cannot recolor custom logos, so bake the color into the file. `badgekit validate` rejects unsafe SVGs and any badge URL longer than 3000 characters.
+- After merging new badges, run **Actions → Probe badges** to confirm each one renders with its logo on Shields.io.
 
-```json
-{
-  "name": "react",
-  "category": "frameworks",
-  "altnames": ["reactjs"],
-  "tags": ["framework", "javascript", "frontend"],
-  "versions": { "svg": ["original", "plain", "line"] },
-  "color": "#61dafb"
-}
-```
+### Workflow and commits
 
-## Add an icon quickly from Simple Icons
+We use [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow): branch from `main`, open a pull request, and squash-merge after CI passes. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org), for example `feat(badges): add Apache Kafka` or `fix(render): escape underscores in labels`.
 
-```bash
-npm i -D simple-icons
-node scripts/add-from-simple-icons.mjs googlesearchconsole seo-webmaster seo google
-npm run validate
-```
+Never edit `README.md`, `README.id.md`, `docs/badges.json` or `docs/llms.txt` outside the marked sections; the generator owns them. Be kind: see the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-Simple Icons is CC0, but each logo is still a trademark of its owner.
+### Releasing (maintainers)
 
-## Request an icon
+Releases are created from GitHub Actions, never by hand. Go to **Actions → Release → Run workflow** on `main` and choose the bump:
 
-Open an [icon request](../../issues/new?template=icon-request.md) with the official name, website and preferred variants.
+| Bump | Use it for | Example |
+|---|---|---|
+| `patch` | Fixes and small data corrections | `v0.1.0` → `v0.1.1` |
+| `minor` | New badges, categories or features | `v0.1.1` → `v0.2.0` |
+| `major` | Breaking changes (renamed ids, changed `badges.json` schema) | `v0.2.0` → `v1.0.0` |
 
-## Trademarks
+The workflow requires green CI on the commit, creates the `vX.Y.Z` tag and publishes a GitHub release with generated notes. Tick **dry_run** to preview the next version without releasing. Move the finished items from `[Unreleased]` to a new version heading in `CHANGELOG.md` in the pull request that precedes the release.
 
-Logos belong to their owners. If a rights holder asks for a change or removal, we will act promptly.
+## Kontribusi (Bahasa Indonesia)
 
-## Code of conduct
+Terima kasih sudah membantu! Sebagian besar kontribusi cukup satu baris di `data/badges.yml`.
 
-Be respectful and constructive. Harassment is not tolerated.
+### Menambah badge
+
+1. Pastikan logonya ada di [simpleicons.org](https://simpleicons.org), lalu catat **slug** dan **hex**-nya.
+2. Tambahkan satu baris di bawah komentar kategori yang tepat di `data/badges.yml` (contoh format ada di bagian English di atas).
+3. `logo_color` diisi `white` untuk warna gelap dan `black` untuk warna terang (cek di preview).
+4. Regenerasi dan verifikasi dengan perintah yang sama seperti di atas (`badgekit build`, `badgekit check`, `ruff`, `black`, `pytest`).
+5. Commit `data/badges.yml` bersama file hasil generate: `README.md`, `README.id.md`, dan `docs/`.
+
+### Kriteria badge
+
+- Produknya teknologi, tool, atau layanan nyata yang banyak dipakai.
+- `name` adalah nama resmi produk; `hex` adalah warna brand resmi dari Simple Icons.
+- Tidak boleh duplikat: `badgekit validate` menolak id, nama, dan slug yang berulang.
+- Logo yang tidak ada di Simple Icons bisa ditambahkan dengan `source: custom` dan SVG satu warna di `assets/logos/` (lihat [`assets/logos/README.md`](assets/logos/README.md)). Shields.io tidak bisa mewarnai ulang logo custom, jadi tanamkan warnanya di file. `badgekit validate` menolak SVG yang tidak aman dan URL badge yang lebih panjang dari 3000 karakter.
+- Setelah badge baru ter-merge, jalankan **Actions → Probe badges** untuk memastikan tiap badge tampil beserta logonya di Shields.io.
+
+### Alur kerja dan commit
+
+Kami memakai [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow): buat branch dari `main`, buka pull request, lalu squash-merge setelah CI lulus. Pesan commit mengikuti [Conventional Commits](https://www.conventionalcommits.org), misalnya `feat(badges): add Apache Kafka`.
+
+Jangan mengedit `README.md`, `README.id.md`, `docs/badges.json`, atau `docs/llms.txt` di luar bagian yang bertanda; generator yang mengelolanya. Bersikaplah baik: lihat [Code of Conduct](CODE_OF_CONDUCT.md).
+
+### Rilis (maintainer)
+
+Rilis dibuat lewat GitHub Actions, bukan manual. Buka **Actions → Release → Run workflow** di `main`, lalu pilih jenis kenaikan versi:
+
+| Bump | Dipakai untuk | Contoh |
+|---|---|---|
+| `patch` | Perbaikan dan koreksi data kecil | `v0.1.0` → `v0.1.1` |
+| `minor` | Badge, kategori, atau fitur baru | `v0.1.1` → `v0.2.0` |
+| `major` | Perubahan yang merusak kompatibilitas (id diganti, skema `badges.json` berubah) | `v0.2.0` → `v1.0.0` |
+
+Workflow mewajibkan CI hijau pada commit tersebut, membuat tag `vX.Y.Z`, dan menerbitkan GitHub release dengan catatan otomatis. Centang **dry_run** untuk melihat versi berikutnya tanpa merilis. Pindahkan item yang selesai dari `[Unreleased]` ke heading versi baru di `CHANGELOG.md` lewat pull request sebelum rilis.
